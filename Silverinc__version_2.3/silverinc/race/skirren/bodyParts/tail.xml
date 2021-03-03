@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_skirren</race>
+
+	<transformationName><![CDATA[skirren]]></transformationName>
+
+	<coveringType>silverinc_skirren_fur</coveringType>
+
+	<spinneret>false</spinneret>
+
+	<defaultGirth>3</defaultGirth>
+
+	<defaultLengthAsPercentageOfHeight>1.0</defaultLengthAsPercentageOfHeight>
+
+	<tags>
+		<tag>TAIL_TYPE_FUR</tag>
+		<tag>TAIL_TAPERING_NONE</tag>
+	</tags>	
+
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+
+	<name><![CDATA[tail]]></name>
+	<namePlural><![CDATA[tails]]></namePlural> 
+
+	<descriptorsMasculine>
+		<descriptor>fluffy</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>furred</descriptor>
+		<descriptor>wide</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>fluffy</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>furred</descriptor>
+		<descriptor>wide</descriptor>
+	</descriptorsFeminine>
+
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+
+	<tipDescriptorsMasculine>
+		<descriptor>fluffy</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>furred</descriptor>
+		<descriptor>curled</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>fluffy</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>furred</descriptor>
+		<descriptor>curled</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A furry, Squirrel-like tail sprouts from just above [npc.her] ass, rapidly growing in size until it's about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has] limited control over it, but [npc.is] still able to swish it from side to side.
+			<br/>[npc.Name] now [npc.has] a [style.boldSquirrel(skirren tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)]. I'm a gunna swish so much.
+		#ELSE
+			[npc.TailCount] furry, Squirrel-like tails sprout from just above [npc.her] ass, rapidly growing in size until they're each about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has] limited control over them, but [npc.is] still able to swish them from side to side.
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldSquirrel(Skirren tails)], [npc.materialDescriptor] [npc.tailFullDescription(true)]. Unlimited swishing!!!!
+		#ENDIF
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		Growing out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] jackal tail, which [npc.she] can swish from side to side at will. Swish, swish.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] jackal tails, which [npc.she] can swish from side to side at will. (Swishing intensifies).
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

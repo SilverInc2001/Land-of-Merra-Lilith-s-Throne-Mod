@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>100</value> 
+		<determiner><![CDATA[vial of]]></determiner>
+		<name><![CDATA[Desert Snapper Spit]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Desert Snapper Spit]]></namePlural>
+		<description><![CDATA[The vial contains Desert Snapper "spit" from the land of Merra. For safety reasonings, the contents have been made magically inert so you can enjoy the salty delicacy without and risk of its side effects. "warning product distributors cannot be held liable if consumer enchants said products to access side effects".]]></description> 
+		
+		<useDescriptor>eat</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/desertsnapper/subspecies/icon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">desert_snapper_vial.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>BASE_BROWN</colourPrimary>
+		<secondaryColour>BASE_BROWN</secondaryColour>
+		<tertiaryColour>BASE_TAN</tertiaryColour>
+		
+		<potionDescriptor><![CDATA[snapper]]></potionDescriptor>
+		<associatedRace>silverinc_desertsnapper</associatedRace>
+
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 10% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+			<line><![CDATA[[#ATTRIBUTE_MAJOR_PHYSIQUE.getFormattedValue(5)] to 'potion effects']]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/10)]
+			
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(start)] starts to have a salty taste in their mouth
+			</p>
+			[#npc.addPotionEffect(ATTRIBUTE_MAJOR_PHYSIQUE, 5)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and is instantly hit with an intoxicating musky smell, you look at the vicus liquid as it sloshes in the container. Unsure about your decision you hesitantly put the vial to your lips and down it in one. As it goes down your throat it leaves a salty aftertaste in your mouth.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and is instantly hit with an intoxicating musky smell, they look at the vicus liquid as it sloshes in the container. Unsure about thier decision [npc2.she] hesitantly put the vial to [npc2.her] lips and downs it in one. As it goes down [npc2.her] throat it leaves a salty aftertaste in [npc2.her] mouth.
+		]]></otherUse>
+	</useDescriptions>
+	
+</item>

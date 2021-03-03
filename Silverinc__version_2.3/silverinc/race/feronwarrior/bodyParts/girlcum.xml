@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_feronwarrior</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<baseFluidType>GIRLCUM</baseFluidType>
+	
+	<flavour>HONEY</flavour>
+	
+	<namesMasculine/>
+	
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[feron]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[feron]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers>
+		<modifier>STICKY</modifier>
+	</defaultFluidModifiers>
+	
+</fluid>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_desertsnapper</race>
+	
+	<transformationName><![CDATA[snapper (Desert)]]></transformationName>
+	
+	<coveringType>silverinc_desertsnapper_scales</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>rough</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>rough</descriptor>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>scaled</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>clawed</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>four_fingered</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>scaled</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>clawed</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>four_fingered</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>strong</descriptor>
+		<descriptor>leathery</descriptor>
+		<descriptor>sharp</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>strong</descriptor>
+		<descriptor>leathery</descriptor>
+		<descriptor>sharp</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		Within a short time, the skin around [npc.her] arms started to darken and feel loose [npc.she] looks down at her hands and see sharp nails piercing threw the tips of [npc.her] fingers as well as [npc.her] two middle fingers fusing together. Simultaneously small holes in [npc.her] skin started to open up revealing [npc.armFullDescription].
+		<br/>As the final pieces of skin fall off, [npc.nameIsFull] left with four fingered, [style.boldDog(desert snapper arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands have formed into anthropomorphic, raptor-like hands, complete with sharp claws and tough, leathery palms.
+	]]></bodyDescription>
+	
+</arm>

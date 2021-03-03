@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_skirren</race>
+	
+	<colour>BASE_ORANGE</colour>
+	<secondaryColour>BASE_ORANGE</secondaryColour>
+	<tertiaryColour>BASE_ORANGE</tertiaryColour>
+	
+	<mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>25000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_skirren_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_skirren_gas_canister</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>true</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 0)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 0)]
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_skirren)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Skittish Skirrens</bookName>
+	
+	<basicDescriptionId>SKIRREN_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SKIRREN_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[skirren]]></name>
+	<namePlural><![CDATA[skirrens]]></namePlural>
+	<singularMaleName><![CDATA[skirren-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[skirren-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[skirren-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[skirren-girls]]></pluralFemaleName>
+	
+	<description><![CDATA[A Skirren, if a squirrel was on cocaine]]></description>
+	
+	<nameHalfDemon><![CDATA[skirren-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[skirren-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[skirren-demon]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[skirren-demon]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[skirren-demons]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[skirren-demons]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[skirren]]></feralName>
+		<feralNamePlural><![CDATA[skirrens]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[skirren]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[skirren]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[skirrens]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[skirrens]]></feralPluralFemaleName>
+		
+		<legConfiguration>BIPEDAL</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>0</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>false</armsOrWingsPresent>
+		<fingerActionsAvailable>false</fingerActionsAvailable>
+		<hairPresent>true</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.she] have the body of a skirren meaning two things, your fast but also an idiot.
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="10">MAJOR_PHYSIQUE</attribute>
+		<attribute value="25">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+	
+	<worldLocations>
+			<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+	
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+	
+	<flags/>
+	
+</subspecies>

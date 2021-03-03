@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<penis>
+	<race>silverinc_spitbug</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>PENIS</coveringType>
+	
+	<testicleType>silverinc_spitbug_testicle</testicleType>
+	
+	<additionalTransformationEffect/>
+	
+	<namesMasculine>
+		<name><![CDATA[rspitbug-]]></name>
+	</namesMasculine>
+	<namesPluralMasculine>
+		<name><![CDATA[spitbug-]]></name>
+	</namesPluralMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[spitbug-]]></name>
+	</namesFeminine>
+	<namesPluralFeminine>
+		<name><![CDATA[spitbug-]]></name>
+	</namesPluralFeminine>
+	
+	<descriptors/>
+	
+	<defaultPenetrationModifiers>
+		<modifier>VEINY</modifier>
+	</defaultPenetrationModifiers>
+	
+	<transformationDescription><![CDATA[
+		[npc.she] feels a warmth spreading threw [npc.her] cock as it becomes painfully erect, a wave of arousal hits [npc.her] has [npc.she] [npc.verb(see)] [npc.her] penis leaks with pre. [npc.her] cock skin started to feel strange as started to be [npc.materialDescriptor] [npc.penisFullDescription(true)]. as the changes finished [npc.her] penis let out a spurt of cum on the floor signalling its end.
+		<br/>[npc.She] now [npc.has] a [style.boldHyena(spitbug penis)], [npc.materialDescriptor] [npc.penisFullDescription(true)].
+		<br/>[npc.She] [npc.has] [style.boldHyena([npc.ballsCount]#IF(npc.isInternalTesticles()) internal#ENDIF balls)], [npc.materialDescriptor] [npc.ballsFullDescription(true)], which produce [npc.cumColour(true)] [style.boldHyena(spitbug cum)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] [npc.a_cockGirth], [npc.cockLengthValue] spitbug cock, which is [npc.materialCompositionDescriptor] [npc.cockFullDescription(true)].
+	]]></bodyDescription>
+	
+</penis>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>500</value> 
+		<determiner><![CDATA[A]]></determiner>
+		<name><![CDATA[Meat Weed]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Meat Weeds]]></namePlural>
+		<description><![CDATA[A purple Bullrush like plant that is known to make Spitbugs as a precaution you have to enchant it to activate its transformative properties. It has imported by "Merra Imports.Inc". "Caution this plant has been know to be very addictive and as such should be only eaten in small quantities. M.I.I is not responsible for actions that take place if you become a spitbug when consuming an enchanted product".]]></description> 
+
+		<useDescriptor>plant</useDescriptor>
+
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/spitbug/subspecies/icon.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="70">spitbug_meat_weed.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+
+		<colourPrimary>BASE_GREEN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+
+		<potionDescriptor><![CDATA[spitbug]]></potionDescriptor>
+		<associatedRace>silverinc_spitbug</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 30% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/2)]
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(feel)] [npc.her] injuries start to heal...
+			</p>
+		]]></applyEffects>
+
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(grab)] a meat weed  and [npc.verb(look)] at the purple plant. [npc.She] then [npc.verb(brace)] [npc.her]self and [npc.verb(consume)] it, the plant leaves a strong salty taste in [npc.her] mouth.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(grab)] a meat weed and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to see the purple plant. Reluctantly, [npc2.she] then [npc2.verb(brace)] [npc2.her]self and [npc2.verb(consume)] it in one, the liquid leaving a strong salty taste in [npc2.her] mouth.
+		]]></otherUse>
+	</useDescriptions>
+</item>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_feronqueen</race>
+	
+	<transformationName><![CDATA[feron abdomen]]></transformationName>
+	
+	<coveringType>silverinc_feronqueen_chitin</coveringType>
+	
+	<spinneret>false</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_GENERIC</tag>
+		<tag>TAIL_TAPERING_LINEAR</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[abdomen]]></name>
+	<namePlural><![CDATA[abdomens]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>wasp-like</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>wasp-like</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A bump starts to grow above [npc.her] ass which begins to expand gradually until it's about [npc.tailLength] long. [npc.she] look at [npc.her] new appendage and see a [npc.materialDescriptor] abdomen that is tapered at the end. Suddenly a heat starts to spread through [npc.her] new abdomen. [npc.She] [npc.verb(fall)] to [npc.her] knees in near orgasmic shock as [npc.she] [npc.verb(feel)] five openings making their presence known. When [npc.she] [npc.verb(look)] down at [npc.her] new appendage, [npc.she] see five vaginal openings at the end of [npc.her] insectile abdomen, each drooling profusely a honey-like substance. When [npc.she] [npc.verb(try)] to catch [npc.her] breath, thinking that was the end of [npc.her] perverted transformation, [npc.she] [npc.verb(feel)] a sudden pressure. [npc.She] fall back down to [npc.her] knees, unable to control [npc.her] legs anymore. Each of [npc.her] openings has now engorged and are drooling twice as much as before. [npc.She] feel the pressure come to a head, and then [npc.she] notice something exit one of [npc.her] new orifices. An egg? Before [npc.she] could grasp what just occurred, [npc.her] body takes back control. Excreating more and more eggs then [npc.she] can mentally handle. [npc.verb(feel)] stuck haveing wave after wave of eggs exiting [npc.her] body. Minutes later, [npc.she] [npc.verb(find)] [ncp.herself] left lying in a pile of eggs, gasping for breath as the last one escapes [npc.her] body and hits the ground. 
+			<br/>[npc.Name] now [npc.has] a [style.boldYellow(feron abdomen)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] bumps starts to grow above [npc.her] ass they begin to expand gradually until there about [npc.tailLength] long. [npc.she] look at [npc.her] new appendages and see [npc.materialDescriptor] abdomens that are tapered at the end. Suddenly a heat starts to spread through [npc.her] new abdomens. [npc.She] [npc.verb(fall)] to [npc.her] knees in near orgasmic shock as [npc.she] [npc.verb(feel)] five openings making their presence known on each abdomen. When [npc.she] [npc.verb(look)] down at [npc.her] new appendages, [npc.she] see five vaginal openings at the end of [npc.her] insectile abdomens, each drooling profusely a honey-like substance. When [npc.she] [npc.verb(try)] to catch [npc.her] breath, thinking that was the end of [npc.her] perverted transformation, [npc.she] [npc.verb(feel)] a sudden pressure. [npc.She] fall back down to [npc.her] knees, unable to control [npc.her] legs anymore. Each of [npc.her] openings has now engorged and are drooling twice as much as before. [npc.She] feel the pressure come to a head, and then [npc.she] notice something exit one of [npc.her] new orifices. An egg? Before [npc.she] could grasp what just occurred, [npc.her] body takes back control. Excreating more and more eggs then [npc.she] can mentally handle. [npc.she] [npc.verb(feel)] stuck haveing wave after wave of eggs exiting [npc.her] body. Minutes later, [npc.she] [npc.verb(find)] [ncp.herself] lying in a pile of eggs, gasping for breath as the last one escapes [npc.her] body and hits the ground. 
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldYellow(feron abdomens)], [npc.materialDescriptor]
+		#ENDIF 
+	]]></transformationDescription>	
+	<bodyDescription><![CDATA[
+		protruding out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron abdomen, which pulsates with [npc.her] heart beat. The opanings on [npc.her] abdomin are currently closed.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron abdomens, which pulsates with [npc.her] heart beat. The opanings on [npc.her] abdomins are currently closed.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

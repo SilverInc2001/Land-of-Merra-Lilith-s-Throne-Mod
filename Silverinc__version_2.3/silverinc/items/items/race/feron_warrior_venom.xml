@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>1000</value> 
+		<determiner><![CDATA[vial of]]></determiner>
+		<name><![CDATA[Feron Warrior Venom]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Feron Warrior Venoms]]></namePlural>
+		<description><![CDATA[The vial contains feron warrior venom from the land of Merra. For safety reasonings, the contents have been made magically inert so you can enjoy the drinking a deadly venom without and risk of its transformative side effects. "warning product distributors cannot be held liable if consumer enchants said products to access side effects. Caution product should not be ingested".]]></description> 
+		
+		<useDescriptor>drink</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>false</combatUseAllies>
+		<combatUseEnemies>true</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/feronwarrior/subspecies/icon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">feron_warrior_venom.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>BASE_YELLOW</colourPrimary>
+		<colourSecondary>BASE_YELLOW</colourSecondary>
+		<colourTertiary>BASE_GOLD</colourTertiary>
+		
+		<potionDescriptor><![CDATA[feron warrior]]></potionDescriptor>
+		<associatedRace>silverinc_feronwarrior</associatedRace>
+
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldBad(decreases)] 50% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+			<line><![CDATA[[#ATTRIBUTE_MAJOR_PHYSIQUE.getFormattedValue(5)] to 'potion effects']]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[#npc.addPotionEffect(ATTRIBUTE_HEALTH, -50)]
+			
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(start)] starts to have a odd taste in their mouth
+			</p>
+			[#npc.addPotionEffect(ATTRIBUTE_MAJOR_PHYSIQUE, 5)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and is instantly hit with an extremely odd smell, you look at the purple liquid and see it is quite runny. You drink the venom but and quickly regret it, as it causes you to ball-up on the floor in pain. After recovering you are left with a constant metallic aftertaste hope you never drink it again.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and both of you are instantly hit with an extremely odd smell. [npc2.she] tries to resis you but you managed to make them drink it. After being on the floor for half a bit [npc2.she] stumbles up, still in abit of pain.
+		]]></otherUse>
+	</useDescriptions>
+	
+</item>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>0</value> 
+		<determiner><![CDATA[an envelope containing a]]></determiner>
+		<name><![CDATA[victims letter (spitbug)]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[victims letters]]></namePlural>
+		<description><![CDATA[it's a letter you found on a spitbug]]></description> 
+		
+		<useDescriptor>read</useDescriptor>
+		
+		<sexUse>false</sexUse>
+		<combatUseAllies>false</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>false</consumedOnUse>
+		
+		<rarity>COMMON</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="-15" imageSize="80">spitbug_letter.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>BASE_TAN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<enchantmentItemTypeId>POTION</enchantmentItemTypeId>
+		<enchantmentEffectId>NONE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+		]]></applyEffects>
+		
+		<itemTags>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.she] desides to look at the letter, [npc.name] [npc.verb(bring)] the letter from the slerm to [npc.her] eyes and started to read it.
+                <br/>Dear client, 
+                <br/>I’m please to inform you that your application has been accepted, as such you are now marked down in my personal records as a test subject of one of my latest products. You specified in your application that your motivations are to “Give men a better time” as said in your letter to me, you are just the kind of applicant I’m looking for. Within this package you should find the product that should assist you with this, hopefully you enjoy it as much as your clients. Regarding all debts towards me have been expunged as long as you consume the product within the next three days. I also want to remind you that any mention of my program to anyone who is not part of my program is strictly prohibited, and if this agreement is broken your body will be claimed as collateral and used to further my research into the genetic material I have obtained for Merra. 
+                <br/>Please enjoy your new body. 
+                <br/>Sincerely, 
+                <br/>Madam Eris 
+
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.she] desides to show the letter to [npc2.name], but they art intrested in some letter you found on a body.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

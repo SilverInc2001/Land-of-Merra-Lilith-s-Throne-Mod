@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<race>silverinc_feronwarrior</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronwarrior_skin</coveringType>
+	
+	<nippleType>silverinc_feronwarrior_nipple</nippleType>
+	
+	<fluidType>silverinc_feronwarrior_milk</fluidType>
+	
+	<names>
+		<name><![CDATA[breast]]></name>
+		<name><![CDATA[boob]]></name>
+		<name><![CDATA[tit]]></name>
+	</names>
+	
+	<namesPlural>
+		<name><![CDATA[breasts]]></name>
+		<name><![CDATA[boobs]]></name>
+		<name><![CDATA[tits]]></name>
+	</namesPlural>
+	
+	<descriptors/>
+	
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+	<descriptorsFlat/>
+	
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldYellow(feron)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldYellow(feron honey)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] nipples, [npc.nipplesFullDescription].
+	]]></bodyDescription>
+	
+	
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldYellow(feron)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldYellow(feron honey)].
+	]]></crotchBoobsTransformationDescription>
+	
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] nipples, [npc.crotchNipplesFullDescription].
+	]]></crotchBoobsBodyDescription>
+	
+</breast>

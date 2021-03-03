@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hair>
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>silverinc_spitbugbroodmother_hair</coveringType>
+	
+	<tags>
+	</tags>
+	
+	<determiner><![CDATA[a head of]]></determiner>
+	
+	<name><![CDATA[hair]]></name>
+	
+	<namePlural pluralByDefault="false"><![CDATA[hairs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>smooth</descriptor>
+		<descriptor>feminine</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>smooth</descriptor>
+		<descriptor>feminine</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		The transformation only lasts a matter of moments, leaving [npc.herHim] with feminine hair.
+		<br/>[npc.Name] now [npc.has] [npc.hairColour] [style.boldHyena(spitbug hair)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.hairDeterminer] [npc.hairLength], [npc.hairColour(true)], feminine hair
+	]]></bodyDescription>
+	
+</hair>

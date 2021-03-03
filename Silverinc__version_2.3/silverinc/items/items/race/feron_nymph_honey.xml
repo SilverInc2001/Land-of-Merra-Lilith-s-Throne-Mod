@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>100</value> 
+		<determiner><![CDATA[vial of]]></determiner>
+		<name><![CDATA[Feron Nymph Honey]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Cock Nymph Honey]]></namePlural>
+		<description><![CDATA[The vial contains feron nymph honey from the land of Merra. For safety reasonings, the contents have been made magically inert so you can enjoy the sweet delicacy without and risk of its side effects. "warning product distributors cannot be held liable if consumer enchants said products to access side effects".]]></description> 
+		
+		<useDescriptor>eat</useDescriptor>
+		
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+		
+		<rarity>RARE</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/feronnymph/subspecies/icon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">feron_nymph_honey.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>BASE_YELLOW</colourPrimary>
+		<colourSecondary>BASE_YELLOW</colourSecondary>
+		<colourTertiary>BASE_YELLOW</colourTertiary>
+		
+		<potionDescriptor><![CDATA[snapper]]></potionDescriptor>
+		<associatedRace>silverinc_feronnymph</associatedRace>
+
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 10% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+			<line><![CDATA[[#ATTRIBUTE_MAJOR_PHYSIQUE.getFormattedValue(5)] to 'potion effects']]></line>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/10)]
+			
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(start)] starts to have a salty taste in their mouth
+			</p>
+			[#npc.addPotionEffect(ATTRIBUTE_MAJOR_PHYSIQUE, 5)]
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and is instantly hit with an extremely sweet smell, you look at the sticky honey and see it is quite thick. You try to drink the honey but it was barely effected you tipping it, so you scoop it out with one of your fingers. After finishing it you are left with a constant sweet aftertaste and a desire for more.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the container and both of you are instantly hit with an extremely sweet smell, [npc2.she] [npc.verb(look)] at the sticky honey and [npc.verb(see)] it is quite thick. [npc2.she] tries to drink the honey but it was barely effected them tipping it, so [npc2.she] [npc.verb(scoop)] it out with one of [npc2.her] fingers. After finishing it [npc2.she] is left with a constant sweet aftertaste and a desire for more.
+		]]></otherUse>
+	</useDescriptions>
+	
+</item>

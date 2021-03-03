@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>silverinc_feronwarrior</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronwarrior_chitin</coveringType>
+	
+	<tags/>
+	
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	
+	<descriptorsMasculine>
+		<descriptor>hidden</descriptor>
+		<descriptor>concealed</descriptor>
+		<descriptor>unnoticeable</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>hidden</descriptor>
+		<descriptor>concealed</descriptor>
+		<descriptor>unnoticeable</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		They quickly begin to shrink and become two neat little holes behind [npc.her] eyes.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+		 A layer of [npc.earFullDescriptionColour] quickly grows to cover them,
+		#ELSE
+		 Just like the rest of [npc.her] body, they're made out of [npc.earFullDescription],
+		#ENDIF
+		 and as the transformation finishes, [npc.she] experimentally [npc.verb(touch)] [npc.her] new feron ear-holes.
+		<br/>[npc.Name] now [npc.has] [style.boldYellow(feron ears)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of unnoticeable,#IF(npc.isPiercedEar()) pierced,#ENDIF feron ears, which are positioned just behind [npc.her] eyes and are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+	
+</ear>

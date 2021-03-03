@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_feronnymph</race>
+	
+	<transformationName><![CDATA[feron nymph]]></transformationName>
+	
+	<baseFluidType>CUM</baseFluidType>
+	
+	<flavour>HONEY</flavour>
+	
+	<namesMasculine>
+		<name><![CDATA[nymph-]]></name>
+	</namesMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[nymph-]]></name>
+	</namesFeminine>
+	
+	<descriptorsMasculine/>
+	
+	<descriptorsFeminine/>
+	
+	<defaultFluidModifiers>
+		<modifier>STICKY</modifier>
+	</defaultFluidModifiers>
+	
+</fluid>

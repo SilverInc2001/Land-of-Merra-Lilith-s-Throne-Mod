@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_feronnymph</race>
+	
+	<transformationName><![CDATA[feron nymph abdomen]]></transformationName>
+	
+	<coveringType>silverinc_feronnymph_skin</coveringType>
+	
+	<spinneret>true</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_GENERIC</tag>
+		<tag>TAIL_TAPERING_LINEAR</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[abdomen]]></name>
+	<namePlural><![CDATA[abdomens]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>grub-like</descriptor>
+		<descriptor>soft</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>grub-like</descriptor>
+		<descriptor>soft</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A bump starts to grow above [npc.her] ass which begins to expand gradually until it's about [npc.tailLength] long. [npc.she] look at your new appendage and see a [npc.materialDescriptor] abdomen that is softly rounded at the end as if still developing.
+			<br/>[npc.Name] now [npc.has] a [style.boldYellow(feron nymph abdomen)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] bumps starts to grow above [npc.her] ass they begin to expand gradually until there about [npc.tailLength] long. [npc.she] look at your new appendages and see [npc.materialDescriptor] abdomens that are softly rounded at the end as if still developing. 
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldYellow(feron nymph abdomens)], [npc.materialDescriptor]
+		#ENDIF 
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		protruding out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron nymph abdomen, which pulsates with [npc.her] heart beat.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron nymph abdomens, which pulsates with [npc.her] heart beat.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

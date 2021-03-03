@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_slerm</race>
+
+	<colour>BASE_GREEN_DARK</colour>
+	<secondaryColour>BASE_GREEN_DARK</secondaryColour>
+	<tertiaryColour>BASE_GREEN_DARK</tertiaryColour>
+
+	<mainSubspecies>true</mainSubspecies>
+
+	<baseSlaveValue>10000</baseSlaveValue>
+
+	<attributeItemId>silverinc_slerm_letter</attributeItemId>
+
+	<transformativeItemId>silverinc_slerm_slime</transformativeItemId>
+
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+
+	<shortStature>false</shortStature>
+
+	<bipedalSubspecies>true</bipedalSubspecies>
+
+	<aquatic>false</aquatic>
+
+	<applySubspeciesChanges/>
+
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_slerm)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+
+        <iconName displaySize="80">icon</iconName>
+
+	<backgroundName>background</backgroundName>
+
+	<bookIconName>icon</bookIconName>
+
+	<bookName>Slimy Slerms</bookName>
+
+	<basicDescriptionId>SLERM_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SLERM_ADVANCED</advancedDescriptionId>
+
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+
+	<name><![CDATA[slerm]]></name>
+	<namePlural><![CDATA[slerms]]></namePlural>
+	<singularMaleName><![CDATA[slerm-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[slerm-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[slerms-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[slerms-girls]]></pluralFemaleName>
+
+	<description><![CDATA[A person who has been transformed into a slerm.]]></description>
+
+	<nameHalfDemon><![CDATA[slerm-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[slerm-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[slerm-incubus]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[slerm-succubus]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[slerm-incubi]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[slerm-succubi]]></pluralFemaleNameHalfDemon>
+
+	<feralAttributes>
+		<feralName><![CDATA[slerm]]></feralName>
+		<feralNamePlural><![CDATA[slerm]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[slerm]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[slerm]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[slerm]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[slerm]]></feralPluralFemaleName>
+
+		<legConfiguration>CEPHALOPOD</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>85</size>
+
+		<breastRowCount>0</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+
+		<armsOrWingsPresent>false</armsOrWingsPresent>
+		<fingerActionsAvailable>false</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] slerm body is quite strong, but [npc.she] [npc.has] a weakened arcane aura.
+	]]></statusEffectDescription>
+
+	<statusEffectAttributeModifiers>
+		<attribute value="20">MAJOR_PHYSIQUE</attribute>
+		<attribute value="-5">MAJOR_ARCANE</attribute>
+		<attribute value="10">RESISTANCE_PHYSICAL</attribute>
+		<attribute value="10">RESISTANCE_FIRE</attribute>
+		<attribute value="10">RESISTANCE_ICE</attribute>
+	</statusEffectAttributeModifiers>
+
+	<extraEffects/>
+
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="5">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+
+	<worldLocations>
+		<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+
+	<flags/>
+</subspecies>
