@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<torso>
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>silverinc_spitbugbroodmother_skin</coveringType>
+	
+	<descriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>supple</descriptor>
+        </descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>supple</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<transformationDescription><![CDATA[
+		[npc.she] [npc.verb(notice)] [npc.her] skin has started to feel abnormally smooth and supple making [npc.her] look more attractive and easy on the eyes but while focusing on this change [npc.she] fales to notice her skin changing hue.
+		<br/>[npc.Name] now [npc.has] [style.boldHyena(spitbug)], [npc.skinFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] torso has [npc.a_femininity(true)] appearance, and is [npc.materialCompositionDescriptor] [npc.skinFullDescription(true)].
+	]]></bodyDescription>
+	
+	<tags/>
+	
+</torso>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>	
+	<race>silverinc_feronqueen</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronqueen_chitin</coveringType>
+	
+	<mouthType>silverinc_feronqueen_mouth</mouthType>
+	
+	<tags>
+		<tag>FACE_MUZZLE</tag>
+	</tags>
+	
+	<names/>
+	<namesPlural/> 
+	
+	<descriptorsMasculine>
+		<descriptor>short</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>grub-like</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>short</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>grub-like</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<noseName><![CDATA[nose]]></noseName>
+	<noseNamePlural><![CDATA[noses]]></noseNamePlural>
+	
+	<noseDescriptorsMasculine/>
+	<!-- Same as above, but for feminine characters. -->
+	<noseDescriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.Her] nose and mouth twitch and transform as they push out into a short feron muzzle. Your skin rips revealing
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+			 a layer of [npc.faceSkin+] quickly grows to cover [npc.her] new face, 
+		#ELSE
+			 just like the rest of [npc.her] body, [npc.her] new face is [npc.materialDescriptor] [npc.faceSkin+], 
+		#ENDIF
+		and as the transformation finally comes to an end, [npc.sheIs] left panting as [npc.she] [npc.verb(try)] to catch [npc.her] breath.
+		<br/>[npc.Name] now [npc.has] an brutish [style.boldYellow(feron face)], [npc.materialDescriptor] [npc.faceFullDescription]. Within [npc.her] [npc.mouth], [npc.she] has a [style.boldYellow(feron tongue)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], soft, feron face [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle.
+	]]></bodyDescription>
+	
+	<bodyDescriptionFeral><![CDATA[
+		[npc.SheHasFull] the [npc.feminineDescriptor(true)] face of a [npc.legRace], which is [npc.materialDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle.
+	]]></bodyDescriptionFeral>
+	
+</face>

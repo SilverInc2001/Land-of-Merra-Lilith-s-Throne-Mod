@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_cocksnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<baseFluidType>MILK</baseFluidType>
+	
+	<flavour>CUM</flavour>
+
+	<namesMasculine/>
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[snapper]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[snapper]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers>
+		<modifier>MUSKY</modifier>
+		<modifier>ADDICTIVE</modifier>
+		<modifier>SLIMY</modifier>
+	</defaultFluidModifiers>
+	
+</fluid>

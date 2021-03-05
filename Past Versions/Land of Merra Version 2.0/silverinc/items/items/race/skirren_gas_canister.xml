@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>750</value> 
+		<determiner><![CDATA[a canister of]]></determiner>
+		<name><![CDATA[Skirren Gas]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Slerm Slimes]]></namePlural>
+		<description><![CDATA[A canister, containing an artificially made gas. Whilst not providing anything when consumed, it is used as punishment for criminals by transforming then into Skirrens. Luckily as a safety precaution, you have to enchant it for its transformative capabilities to take effect. "When enchanting side effects may include: abnormal amounts of energy, sudden bursts of joy, hair and tail growth and becoming an idiot (if not already)".]]></description> 
+
+		<useDescriptor>inhail</useDescriptor>
+
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/skirren/subspecies/icon.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="90">skirren_gas_canister.svg</imageName>
+		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
+
+		<colourPrimary>BASE_ORANGE</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+
+		<potionDescriptor><![CDATA[skirren]]></potionDescriptor>
+		<associatedRace>silverinc_skirren</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+
+		<effectTooltipLines>
+		</effectTooltipLines>
+
+		<applyEffects><![CDATA[
+		]]></applyEffects>
+
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(twist)] the capsule's primer and [npc.verb(look)] at a light that starts blinking on the lid. [npc.She] then [npc.verb(brace)] [npc.her]self for the realeas of the gas, but five seconds later nothing happens. could it be a dud? Suddenly a blast a gas hits [npc.her] face couseing [npc.her] to cough. [npc.She] [npc.verb(wait)] for some effect to happen but then realise [npc.she] haven't activated it with an enchantment.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(twist)] the capsule's primer and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to see the capsule. [npc2.She] then [npc.verb(brace)] [npc.her]self for the realeas of the gas, but five seconds later nothing happens. could it be a dud? Suddenly a blast a gas hits [npc2.her] face couseing [npc2.her] to cough. [npc.She] [npc.verb(wait)] for some effect to happen but then realise [npc.she] haven't activated it with an enchantment. [npc2.She] giggles at your failure.
+		]]></otherUse>
+	</useDescriptions>
+</item>

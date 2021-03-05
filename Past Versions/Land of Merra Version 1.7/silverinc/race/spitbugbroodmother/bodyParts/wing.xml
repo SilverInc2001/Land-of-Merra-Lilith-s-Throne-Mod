@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wing>
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<transformationName><![CDATA[spitbug broodmother]]></transformationName>
+	
+	<coveringType>silverinc_spitbugbroodmother_chitin</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<minimumSize>ZERO_TINY</minimumSize>
+	<maximumSize>FOUR_HUGE</maximumSize>
+	
+	<name><![CDATA[appendage]]></name>
+	<namePlural><![CDATA[appendages]]></namePlural>
+	
+	<descriptorsMasculine>
+		<descriptor><![CDATA[insectale]]></descriptor>
+		<descriptor><![CDATA[transparent]]></descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor><![CDATA[insectile]]></descriptor>
+		<descriptor><![CDATA[transparent]]></descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+			[npc.She] [npc.verb(bite)] [npc.her] [npc.lip] to try and suppress an unexpected moan of pleasure as six [npc.wingSize], insectile limbs push out from [npc.her] shoulder blades and waist.
+		<br/>[npc.Name] now [npc.has] [style.boldTfGeneric(extra broodmother)].
+	]]></transformationDescription>
+	
+	<!-- How this wing is described in a character's description page. -->
+	<bodyDescription><![CDATA[
+		[npc.sheHasFull] six [npc.wingSize], insectile libs, which are [npc.materialDescriptor] [npc.wingFullDescription(true)].
+	]]></bodyDescription>
+	
+</wing>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eye>
+	<race>silverinc_feronqueen</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronqueen_eye</coveringType>
+	
+	<defaultPairCount>1</defaultPairCount>
+	
+	<defaultIrisShape>HORIZONTAL</defaultIrisShape>
+	
+	<defaultPupilShape>HORIZONTAL</defaultPupilShape>
+	
+	<name><![CDATA[eye]]></name>
+	<namePlural><![CDATA[eyes]]></namePlural>
+	
+	<descriptorsMasculine>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		By the time [npc.she] hesitantly [npc.verb(looks)] through them again, they've changed into feron eyes, with large insect eyes.
+		<br/>[npc.Name] now [npc.has] [style.boldYellow(feron eyes)] with [style.boldGenericTF([npc.irisShape])], [npc.irisFullDescription(true)] and [style.boldGenericTF([npc.pupilShape])], [npc.pupilFullDescription(true)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.eyePairs] feron eyes, which has no irises or pupils. If even [npc.she] does [npc.she] they would be [npc.irisShape], [npc.irisColour(true)] irises, [npc.pupilShape], [npc.pupilColour(true)] pupils, and [npc.scleraColour(true)] sclerae.
+	]]></bodyDescription>
+	
+</eye>

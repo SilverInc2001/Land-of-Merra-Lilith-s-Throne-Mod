@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<penis>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[jackal]]></transformationName>
+	
+	<coveringType>PENIS</coveringType>
+	
+	<testicleType>silverinc_skirren_testicle</testicleType>
+	
+	<additionalTransformationEffect/>
+	
+	<namesMasculine>
+		<name><![CDATA[skirren-]]></name>
+	</namesMasculine>
+	<namesPluralMasculine>
+		<name><![CDATA[skirren-]]></name>
+	</namesPluralMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[skirren-]]></name>
+	</namesFeminine>
+	<namesPluralFeminine>
+		<name><![CDATA[skirren-]]></name>
+	</namesPluralFeminine>
+	
+	<descriptors/>
+	
+	<PenetrationModifiers>
+		<modifier>SHEATHED</modifier>
+		<modifier>TAPERED</modifier>
+	</PenetrationModifiers>
+	
+	<transformationDescription><![CDATA[
+		Letting out an involuntary moan, [npc.name] [npc.verb(feel)] [npc.her] penis shifting into a new form, and [npc.sheIs] hit by a wave of overwhelming arousal as the veins of [npc.her] shaft bulge outward. [npc.her] cock develops further as ridges start to take shape, ready to rake along the wall of an orifice. As [npc.she] [npc.verb(pant)] and [npc.verb(gasp)] for air, the tip of [npc.her] cock narrows down as it tapers into its new form.
+		<br/>[npc.She] now [npc.has] a [style.boldSquirrel(skirren penis)], [npc.materialDescriptor] [npc.penisFullDescription(true)]. Heh penis.
+		<br/>[npc.She] [npc.has] [style.boldSquirrel([npc.ballsCount]#IF(npc.isInternalTesticles()) internal#ENDIF balls)], [npc.materialDescriptor] [npc.ballsFullDescription(true)], which produce [npc.cumColour(true)] [style.boldSquirrel(skirren cum)]. Heh penis.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] [npc.a_cockGirth], [npc.cockLengthValue] skirren cock, which is [npc.materialCompositionDescriptor] [npc.cockFullDescription(true)]. Full mast!!!
+	]]></bodyDescription>
+	
+</penis>

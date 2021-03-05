@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>Aurelia_Raptor</race>
+	
+	<transformationName><![CDATA[raptor]]></transformationName>
+	
+	<baseFluidType>GIRLCUM</baseFluidType>
+	
+	<flavour>CUM</flavour>
+	
+	<namesMasculine/>
+	
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[raptor]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[raptor]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers>
+		<modifier>SLIMY</modifier>
+		<modifier>ADDICTIVE</modifier>
+		<modifier>MUSKY</modifier>
+	</defaultFluidModifiers>
+	
+</fluid>

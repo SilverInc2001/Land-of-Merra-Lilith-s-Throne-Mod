@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bookText>
+	
+	<htmlContent tag="SLERM_BASIC"><![CDATA[
+	<p>
+		Slerm are a very big, slimy and almost blind snail-like creature which often nests in a hive with a queen at it's head.
+	</p>
+	]]>
+	</htmlContent>
+
+	<htmlContent tag="SLERM_ADVANCED"><![CDATA[
+	<p>
+		There whole body is covered in a sticky snail skin which makes it difficult to escape for their victoms once catched.
+	</p>
+	<p>
+		Their bodies constently soak up wet air that surrounds them, to turn it into more thick slime that oozes form their skin, guaranteeing a good habitat for their queen.
+	</p>
+	<p>
+		Their once human mammary glands have been transformed into slime-factories, which are able to squirt slime over 2 meters adding another means of trapping their victims.
+	</p>
+	]]>
+	</htmlContent>
+	
+</bookText>

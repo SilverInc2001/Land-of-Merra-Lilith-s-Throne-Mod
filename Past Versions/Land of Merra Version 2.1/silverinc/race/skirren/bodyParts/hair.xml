@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hair>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<tags>
+	</tags>
+	
+	<determiner><![CDATA[a head of]]></determiner>
+	
+	<name><![CDATA[fur]]></name>
+	
+	<namePlural pluralByDefault="false"><![CDATA[hairs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>fur-like</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>fur-like</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		The transformation only lasts a matter of moments, leaving [npc.herHim] with fur-like hair.
+		<br/>[npc.Name] now [npc.has] [npc.hairColour] [style.boldSquirrel(skirren hair)]. So fluff.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.hairDeterminer] [npc.hairLength], [npc.hairColour(true)], skirren hair
+	]]></bodyDescription>
+	
+</hair>

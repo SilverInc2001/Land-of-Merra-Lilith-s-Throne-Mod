@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_ferondrone</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<baseFluidType>MILK</baseFluidType>
+	
+	<flavour>HONEY</flavour>
+
+	<namesMasculine/>
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[feron]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[feron]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers/>
+	
+</fluid>

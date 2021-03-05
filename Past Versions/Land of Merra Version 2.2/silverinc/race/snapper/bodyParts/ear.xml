@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>Ssilverinc_snapper</race>
+	<transformationName><![CDATA[snapper]]></transformationName>
+	<coveringType>silverinc_snapper_scales</coveringType>
+	<tags/>
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	<descriptorsMasculine>
+		<descriptor>scaly</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>scaly</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsFeminine>
+	<transformationDescription><![CDATA[
+		[npc.Name] now [npc.has] [style.boldDog(snapper ears)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of #IF(npc.isPiercedEar()) pierced,#ENDIF snapper ears that are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+</ear>

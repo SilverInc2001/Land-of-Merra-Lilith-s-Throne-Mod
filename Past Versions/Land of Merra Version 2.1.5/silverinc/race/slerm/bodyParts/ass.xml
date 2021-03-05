@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<race>silverinc_slerm</race>
+
+	<transformationName><![CDATA[slerm]]></transformationName>
+
+	<coveringType>silverinc_slerm_skin</coveringType>
+
+	<anusType>silverinc_slerm_anus</anusType>
+
+	<names/>
+	<namesPlural/>
+
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldAlligator(slerm)], [npc.assholeFullDescription].
+	]]></transformationDescription>
+
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a oozing slime, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+
+</ass>

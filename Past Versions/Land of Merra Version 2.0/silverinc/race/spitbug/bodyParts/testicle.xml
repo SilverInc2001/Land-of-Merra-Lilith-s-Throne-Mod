@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<race>silverinc_spitbug</race>
+	
+	<coveringType>silverinc_spitbug_skin</coveringType>
+	
+	<fluidType>silverinc_spitbug_cum</fluidType>
+	
+	<internal>true</internal>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptors/>
+	
+</testicle>

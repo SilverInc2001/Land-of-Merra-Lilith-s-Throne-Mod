@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>500</value> 
+		<determiner><![CDATA[A]]></determiner>
+		<name><![CDATA[Meat Weed (broodmother)]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Meat Weeds]]></namePlural>
+		<description><![CDATA[A purple Bullrush like plant that can be quite addictive once consumed. it has been liquified for easy storage. bought to you by from the lands of Merra.]]></description> 
+
+		<useDescriptor>drink</useDescriptor>
+
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="70">spitbugbroodmother_vial.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+
+		<colourPrimary>BASE_GREEN_LIGHT</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+
+		<potionDescriptor><![CDATA[broodmother]]></potionDescriptor>
+		<associatedRace>silverinc_spitbugbroodmother</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 30% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/2)]
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(feel)] [npc.her] injuries start to heal...
+			</p>
+		]]></applyEffects>
+
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the vial of meat weed juice and [npc.verb(look)] at the purple liquid inside. [npc.She] then [npc.verb(brace)] [npc.her]self and [npc.verb(swallow)] the contents in one, the liquid leaving a strong salty taste in [npc.her] mouth.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(open)] the vial of meat weed juice and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] to see the purple liquid inside. Reluctantly, [npc2.she] then [npc2.verb(brace)] [npc2.her]self and [npc2.verb(swallow)] the contents in one, the liquid leaving a strong salty taste in [npc2.her] mouth.
+		]]></otherUse>
+	</useDescriptions>
+</item>

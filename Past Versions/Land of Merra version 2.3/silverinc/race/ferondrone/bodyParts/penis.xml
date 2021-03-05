@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<penis>
+	<race>silverinc_ferondrone</race>
+	
+	<transformationName><![CDATA[feron drone]]></transformationName>
+	
+	<coveringType>PENIS</coveringType>
+	
+	<testicleType>silverinc_ferondrone_testicle</testicleType>
+	
+	<additionalTransformationEffect/>
+	
+	<namesMasculine>
+		<name><![CDATA[drone-]]></name>
+	</namesMasculine>
+	<namesPluralMasculine>
+		<name><![CDATA[drone-]]></name>
+	</namesPluralMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[drone-]]></name>
+	</namesFeminine>
+	<namesPluralFeminine>
+		<name><![CDATA[drone-]]></name>
+	</namesPluralFeminine>
+	
+	<descriptors/>
+	
+	<defaultPenetrationModifiers>
+		<modifier>RIBBED</modifier>
+		<modifier>TAPERED</modifier>
+	</defaultPenetrationModifiers>
+	
+	<transformationDescription><![CDATA[
+		[npc.she] [npc.verb(feel)] a warmth start to spread through [npc.her] penis as it starts to become erect. Suddenly a wave of euphoria spreads through [npc.her] body as the skin around [npc.her] shaft feels strange. Looking down at [npc.her] engorged appendage, [npc.she] notice [npc.her] foreskin starts to shrink as it's absorbed into [npc.her] cock. You then realise sections of your penis started to protrude above the rest, as it becomes ribbed along the entire shaft.  [npc.She] then notice the tip of [npc.her] penis begins to become pointed, causing a bit of precum to leak out the end. Just as [npc.she] thought the transformation had finished, [npc.she] feel a sudden urgent pressure building at the tip of [npc.her] penis. [npc.She] let out a gasp as the sensation becomes unbearable. Then, as if a switch was flipped, a steam of honey hit the floor, marking the end of [npc.her] reproductive organs changing.
+		<br/>[npc.She] now [npc.has] a [style.boldYellow(drone penis)], [npc.materialDescriptor] [npc.penisFullDescription(true)].
+		<br/>[npc.She] [npc.has] [style.boldYellow([npc.ballsCount]#IF(npc.isInternalTesticles()) internal#ENDIF balls)], [npc.materialDescriptor] [npc.ballsFullDescription(true)], which produce [npc.cumColour(true)] [style.boldYellow(drone honey)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] [npc.a_cockGirth], [npc.cockLengthValue] drone cock, which is [npc.materialCompositionDescriptor] [npc.cockFullDescription(true)].
+	]]></bodyDescription>
+	
+</penis>

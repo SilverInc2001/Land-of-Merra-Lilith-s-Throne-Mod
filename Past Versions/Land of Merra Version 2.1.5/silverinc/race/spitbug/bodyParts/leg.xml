@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<leg>
+	<race>silverinc_spitbug</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>silverinc_spitbug_chitin</coveringType>
+	
+	<defaultFootStructure>DIGITIGRADE</defaultFootStructure>
+	
+	<footType>ARACHNID</footType>
+	
+	<spinneret>false</spinneret>
+	
+	<tentacleType>NONE</tentacleType>
+	
+	<tentacleCount>0</tentacleCount>
+	
+	<allowedLegConfigurations>
+		<configuration>ARACHNID</configuration>
+	</allowedLegConfigurations>
+	
+	<name><![CDATA[leg]]></name>
+	<namePlural><![CDATA[legs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsFeminine>
+	
+	<footDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</footDescriptorsMasculine>
+	<footDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</footDescriptorsFeminine>
+	
+	<toeDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</toeDescriptorsMasculine>
+	<toeDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</toeDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		The skin around [npc.her] lower body starts to feel numb as it begins to turn pale, While focusing on [npc.her] legs [npc.she] fails to notice [npc.her] feet are shifting. Suddenly [npc.she] [npc.verb(hear)] ripping at [npc.her] feet as the skin around [npc.her] feet starts to deform as [npc.her] toes merge, [npc.her] legs follow suit as sections of skin on [npc.her] lower waist tear revealing [npc.legFullDescription]
+		<br/>[npc.Name] now [npc.has] chitnus, [style.boldHyena(spitbug legs and feet)], which are [npc.materialDescriptor] [npc.legFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] legs are [npc.materialCompositionDescriptor] [npc.legFullDescription(true)], and [npc.her] feet are formed into chitnus spitbug feet, complete with two toes and tough soles.
+	]]></bodyDescription>
+	
+</leg>

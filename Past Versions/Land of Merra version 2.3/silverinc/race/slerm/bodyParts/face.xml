@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>
+	<race>silverinc_slerm</race>
+
+	<transformationName><![CDATA[slerm]]></transformationName>
+
+	<coveringType>silverinc_slerm_skin</coveringType>
+
+	<mouthType>silverinc_slerm_mouth</mouthType>
+
+	<tags>
+		<tag>FACE_MUZZLE</tag>
+		<tag>FACE_NATURAL_BALDNESS_SKIN</tag>
+	</tags>
+
+	<names/>
+	<namesPlural/> 
+
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+
+	<noseName><![CDATA[nose]]></noseName>
+	<noseNamePlural><![CDATA[noses]]></noseNamePlural>
+
+	<noseDescriptorsMasculine/>
+	<noseDescriptorsFeminine/>
+
+	<transformationDescription><![CDATA[
+		[npc.Her] nose and mouth twitch and transform as they push out into a slerms's muzzle, and [npc.her] tongue forks, thins and grows longer, turning into a erratic tongue.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+			 A layer of [npc.faceSkin+] quickly grows to cover [npc.her] new face, 
+		#ELSE
+			 Just like the rest of [npc.her] body, [npc.her] new face is [npc.materialDescriptor] [npc.faceSkin+], 
+		#ENDIF
+		and as the transformation finally comes to an end, [npc.sheIs] left panting and sighing as [npc.she] [npc.verb(try)] to catch [npc.her] breath.
+		<br/>[npc.Name] now [npc.has] an [style.boldAlligator(slerm face)], [npc.materialDescriptor] [npc.faceFullDescription]. Within [npc.her] [npc.mouth], [npc.she] has a [style.boldAlligator(slerm tongue)].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], slerm face [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)] and complete with a dripping muzzle.
+	]]></bodyDescription>
+        
+</face>

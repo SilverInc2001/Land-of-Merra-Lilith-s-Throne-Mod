@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vagina>
+	<race>silverinc_deepseasnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>VAGINA</coveringType>
+	
+	<fluidType>silverinc_deepseasnapper_girlcum</fluidType>
+	
+	<eggLayer>true</eggLayer>
+	
+	<names>
+		<name><![CDATA[snapper-]]></name>
+	</names>
+	<namesPlural>
+		<name><![CDATA[snapper-]]></name>
+	</namesPlural>
+	
+	<descriptors>
+		<descriptor>hot</descriptor>
+		<descriptor>gaping</descriptor>
+		<descriptor>musky</descriptor>
+	</descriptors>
+	
+	<defaultOrificeModifiers>
+		<modifier>PUFFY</modifier>
+		<modifier>SQUIRTER</modifier>
+		<modifier>MUSCLE_CONTROL</modifier>
+	</defaultOrificeModifiers>
+	
+	<transformationDescription><![CDATA[
+			[npc.She] [npc.verb(let)] out a moan of excitement as a wave of pleasure runs up through [npc.her] now dripping pussy, which increases in intensity as [npc.she] [npc.verb(feel)] [npc.her] slit uncontrollably shifting and expanding. Within moments, [npc.her] slit elongates and deepens forming a giant gash of a vagina between your legs.
+		</p>
+		<p>
+			Just as [npc.she] [npc.verb(start)] think that the transformation [npc.has] come to an end, [npc.her] pussy involuntarily clenches down, and a desperate squeal escapes from between [npc.her] [npc.lips+] as a warm, tingling feeling spreads up through [npc.her] lower stomch. [npc.her] stomach starts to expand gaining weight [npc.she] let out a deep moan as the pressure gets greater and greater. [npc.she] feels her engorged lips being presses apart as multipal objects push threw [npc.her] body. [npc.she] starts to squat as if by instinct as tons of cum splashes on the ground around [npc.her] feet, then something slips out [npc.she] [npc.verb(look)] down between [npc.her] legs and [npc.verb(see)] a soft egg laying in the mess of girl-cum. But before [npc.she] could properly think an even greater pressure hit your groyne as another egg makes its presence known. After five minutes half a dozen infetile eggs lay beneath your feet. letting you know that your groinal transformation is over.
+			<br/>[npc.Name] now [npc.has] a [style.boldDog(snapper vagina)], with [npc.pussyColourPrimary(true)] labia and [npc.pussyColourSecondary(true)] internal walls.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.she] [npc.has] #IF(npc.isPiercedVagina())a pierced#ELSEa#ENDIF snapper-pussy, with [npc.labiaSize], [npc.pussyPrimaryColour(true)] labia and [npc.pussySecondaryColour(true)] inner-walls.
+	]]></bodyDescription>
+	
+</vagina>

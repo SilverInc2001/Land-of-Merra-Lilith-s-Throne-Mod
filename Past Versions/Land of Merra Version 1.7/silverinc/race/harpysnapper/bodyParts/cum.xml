@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_harpysnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<baseFluidType>CUM</baseFluidType>
+	
+	<flavour>CUM</flavour>
+	
+	<namesMasculine>
+		<name><![CDATA[snapper]]></name>
+	</namesMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[snapper]]></name>
+	</namesFeminine>
+	
+	<descriptorsMasculine/>
+	
+	<descriptorsFeminine/>
+	
+	<defaultFluidModifiers>
+		<modifier>MUSKY</modifier>
+		<modifier>STICKY</modifier>
+		<modifier>SLIMY</modifier>
+	</defaultFluidModifiers>
+	
+</fluid>

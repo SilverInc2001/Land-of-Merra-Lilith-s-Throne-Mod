@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<category>MAIN_SCALES</category>
+	
+	
+	<determiner><![CDATA[a layer of]]></determiner>
+	
+	
+	<name><![CDATA[scale]]></name>
+	
+	
+	<namePlural pluralByDefault="true"><![CDATA[scales]]></namePlural> 
+	
+	
+	<naturalCoveringModifiers>
+		<modifier>SHIMMERING</modifier>
+		<modifier>SMOOTH</modifier>
+	</naturalCoveringModifiers>
+	
+	
+	<extraCoveringModifiers/>
+	
+	
+	<naturalPatterns>
+		<pattern weighting="1">NONE</pattern>
+		<pattern weighting="1">MARKED</pattern>
+		<pattern weighting="1">OMBRE</pattern>
+		<pattern weighting="1">MOTTLED</pattern>
+		<pattern weighting="1">STRIPED</pattern>
+		<pattern weighting="1">SPOTTED</pattern>
+	</naturalPatterns>
+	
+	
+	<extraPatterns>	
+	</extraPatterns>	
+
+	<naturalColoursPrimary>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+		<colour>COVERING_GREEN</colour>
+		<colour>COVERING_GREEN_DARK</colour>
+	</naturalColoursPrimary> 
+	
+	<extraColoursPrimary values="allCoveringColours"/>
+	
+	<naturalColoursSecondary>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+		<colour>COVERING_GREEN</colour>
+		<colour>COVERING_GREEN_DARK</colour>
+	</naturalColoursSecondary>
+	
+	<extraColoursSecondary values="allCoveringColours"/>
+	
+</coveringType>

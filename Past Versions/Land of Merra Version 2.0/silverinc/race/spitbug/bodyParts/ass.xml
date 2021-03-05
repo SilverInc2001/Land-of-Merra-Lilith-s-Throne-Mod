@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<race>silverinc_spitbug</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>silverinc_spitbug_skin</coveringType>
+	
+	<anusType>silverinc_spitbug_anus</anusType>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldHyena(spitbug)], [npc.assholeFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a spitbug, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+	
+</ass>

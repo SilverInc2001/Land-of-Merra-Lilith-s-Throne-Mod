@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>	
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<coveringType>silverinc_spitbugbroodmother_skin</coveringType>
+	
+	<mouthType>silverinc_spitbugbroodmother_mouth</mouthType>
+	
+	<tags>
+		<tag>FACE_STANDARD</tag>
+	</tags>
+	
+	<names/>
+	<namesPlural/> 
+	
+	<descriptorsMasculine>
+		<descriptor>gaping</descriptor>
+		<descriptor>musky</descriptor>
+	</descriptorsMasculine>
+        <descriptorsFeminine>
+		<descriptor>gaping</descriptor>
+		<descriptor>musky</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<noseName><![CDATA[clit]]></noseName>
+	<noseNamePlural><![CDATA[clits]]></noseNamePlural>
+	
+	<noseDescriptorsMasculine/>
+	<!-- Same as above, but for feminine characters. -->
+	<noseDescriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+			[npc.She] [npc.verb(let)] out a moan of plesure as a wave of pleasure runs up through [npc.her] face, which increases in intensity as [npc.she] [npc.verb(feel)] [npc.her] mouth uncontrollably shifting and contracting. [npc.she] throat starts swelling, the feeling [npc.her] tongue fades away, and [npc.she] [npc.verb(discover)] that [npc.her] mouth has reformed into a spacking pussy of a spitbug.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+			 A layer of [npc.faceSkin+] quickly grows to cover [npc.her] new face.
+		#ELSE
+			 Just like the rest of [npc.her] body, [npc.her] new face is [npc.materialDescriptor] [npc.faceSkin+].
+		#ENDIF
+		Just as [npc.she] [npc.verb(start)] think that the transformation [npc.has] come to an end, [npc.her] face pussy involuntarily clenches down, and a desperate smacking escapes from between [npc.her] [npc.lips+] as a warm, tingling feeling spreads up through [npc.her] face. Images of throbbing cocks of every kind slamming deep into [npc.her] new mouth flash before [npc.her] eyes, and [npc.her] shock turns into a satisfied moans as [npc.she] [npc.verb(imagine)] them pumping their potent seed deep into [npc.her] throat. Just as quickly as they came, the images fade from [npc.her] mind, and as one last wave of tingling pleasure washes through [npc.her] body, [npc.she] [npc.verb(feel)] your face has finished transforming. As the transformation finally comes to an end, [npc.sheIS] left smacking and farting as [npc.she] [npc.verb(try)] to catch [npc.her] breath.
+		<br/>[npc.Name] now [npc.has] a [style.boldHyena(spitbug face)], with [npc.pussyColourPrimary(true)] labia and [npc.pussyColourSecondary(true)] internal walls, [npc.materialDescriptor] [npc.faceFullDescription].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], Spitbug face [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)].
+	]]></bodyDescription>
+	
+	<bodyDescriptionFeral><![CDATA[
+		[npc.SheHasFull] the [npc.feminineDescriptor(true)] face of a feral [npc.legRace], which is [npc.materialDescriptor] [npc.faceFullDescription(true)] and complete with a face vagina.
+	]]></bodyDescriptionFeral>
+	
+</face>

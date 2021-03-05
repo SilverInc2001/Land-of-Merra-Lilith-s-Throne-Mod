@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<race>silverinc_feronnymph</race>
+	
+	<transformationName><![CDATA[feron nymph]]></transformationName>
+	
+	<coveringType>silverinc_feronnymph_skin</coveringType>
+	
+	<anusType>silverinc_feronnymph_anus</anusType>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldYellow(nymph)], [npc.assholeFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a feron nymph, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+	
+</ass>

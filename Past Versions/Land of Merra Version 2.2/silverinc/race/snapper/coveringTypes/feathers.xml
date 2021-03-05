@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<category>MAIN_FEATHER</category>
+	
+	<determiner><![CDATA[a layer of]]></determiner>
+	
+	<name><![CDATA[feather]]></name>
+	
+	<namePlural pluralByDefault="true"><![CDATA[feathers]]></namePlural> 
+	
+	<naturalCoveringModifiers>
+		<modifier>SHAGGY</modifier>
+	</naturalCoveringModifiers>
+	
+	<extraCoveringModifiers/>
+	
+	<naturalPatterns>
+		<pattern weighting="1">NONE</pattern>
+		<pattern weighting="1">MARKED</pattern>
+		<pattern weighting="1">OMBRE</pattern>
+		<pattern weighting="1">MOTTLED</pattern>
+		<pattern weighting="1">STRIPED</pattern>
+		<pattern weighting="1">SPOTTED</pattern>
+	</naturalPatterns>
+	
+	<extraPatterns>
+	</extraPatterns>
+	
+	<naturalColoursPrimary>
+		<colour>COVERING_DARK_GREY</colour>
+		<colour>COVERING_RED</colour>
+		<colour>COVERING_RED_DARK</colour>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_BLUE</colour>
+		<colour>COVERING_BLUE_DARK</colour>
+	</naturalColoursPrimary>  
+	
+	<extraColoursPrimary values="allCoveringColours"/>
+	
+	<naturalColoursSecondary>
+		<colour>COVERING_GREY</colour>
+		<colour>COVERING_RED_LIGHT</colour>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_BLUE_LIGHT</colour>
+		<colour>COVERING_WHITE</colour>
+		<colour>COVERING_BLACK</colour>
+	</naturalColoursSecondary>
+	
+	<extraColoursSecondary values="allCoveringColours"/>
+	
+</coveringType>

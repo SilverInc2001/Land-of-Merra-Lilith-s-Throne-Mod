@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<torso>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	
+	<transformationDescription><![CDATA[
+		After just a few moments, the transformation comes to an end, and [npc.she] [npc.verb(let)] out a deep sigh as the itching finally stops, leaving [npc.her] torso covered with skirren fur. [npc.Her] new fur is a little thin and soft around [npc.her] joints and is quite densely packed for added protection.
+		<br/>[npc.Name] now [npc.has] [style.boldSquirrel(skirren)], [npc.skinFullDescription]. I'm so floof.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] torso has [npc.a_femininity(true)] appearance, and is [npc.materialCompositionDescriptor] [npc.skinFullDescription(true)]. Mmm soft.
+	]]></bodyDescription>
+	
+	<tags/>
+	
+</torso>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>Ssilverinc_spitbug</race>
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	<coveringType>silverinc_spitbug_skin</coveringType>
+	<tags/>
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	<descriptorsMasculine>
+		<descriptor>spitbug</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>spitbug</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsFeminine>
+	<transformationDescription><![CDATA[
+		[npc.Name] now [npc.has] [style.boldHyena(large, spitbug ears)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of #IF(npc.isPiercedEar()) pierced,#ENDIF spitbug ears that are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+</ear>

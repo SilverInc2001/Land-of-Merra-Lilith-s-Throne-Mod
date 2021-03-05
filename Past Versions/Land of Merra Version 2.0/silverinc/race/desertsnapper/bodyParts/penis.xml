@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<penis>
+	<race>silverinc_desertsnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>PENIS</coveringType>
+	
+	<testicleType>silverinc_desertsnapper_testicle</testicleType>
+	
+	<additionalTransformationEffect/>
+	
+	<namesMasculine>
+		<name><![CDATA[snapper-]]></name>
+	</namesMasculine>
+	<namesPluralMasculine>
+		<name><![CDATA[snapper-]]></name>
+	</namesPluralMasculine>
+	
+	<namesFeminine>
+		<name><![CDATA[snapper-]]></name>
+	</namesFeminine>
+	<namesPluralFeminine>
+		<name><![CDATA[snapper-]]></name>
+	</namesPluralFeminine>
+	
+	<descriptors/>
+	
+	<defaultPenetrationModifiers>
+		<modifier>RIBBED</modifier>
+		<modifier>TAPERED</modifier>
+		<modifier>VEINY</modifier>
+	</defaultPenetrationModifiers>
+	
+	<transformationDescription><![CDATA[
+		Letting out an involuntary moan, [npc.name] [npc.verb(feel)] [npc.her] penis shifting and engorging into a new form, and [npc.sheIs] hit by a wave of overwhelming arousal as the veins of [npc.her] shaft bulge outward. [npc.her] cock develops further as ridges start to take shape, ready to penetrate the wall of any orifice. As [npc.she] [npc.verb(pant)] and [npc.verb(gasp)] for air, the tip of [npc.her] cock spurts out a monumental amount of cum.
+		<br/>[npc.She] now [npc.has] a [style.boldDog(snapper penis)], [npc.materialDescriptor] [npc.penisFullDescription(true)].
+		<br/>[npc.She] [npc.has] [style.boldDog([npc.ballsCount]#IF(npc.isInternalTesticles()) internal#ENDIF balls)], [npc.materialDescriptor] [npc.ballsFullDescription(true)], which produce [npc.cumColour(true)] [style.boldDog(snapper cum)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] [npc.a_cockGirth], [npc.cockLengthValue] snapper cock, which is [npc.materialCompositionDescriptor] [npc.cockFullDescription(true)].
+	]]></bodyDescription>
+	
+</penis>

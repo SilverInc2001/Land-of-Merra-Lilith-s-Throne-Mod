@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<race>silverinc_slerm</race>
+
+	<coveringType>silverinc_slerm_skin</coveringType>
+
+	<fluidType>silverinc_slerm_cum</fluidType>
+
+	<internal>true</internal>
+
+	<names/>
+	<namesPlural/>
+
+	<descriptors/>
+</testicle>

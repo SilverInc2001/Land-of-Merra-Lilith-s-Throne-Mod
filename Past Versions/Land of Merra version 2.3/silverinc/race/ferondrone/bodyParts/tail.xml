@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_ferondrone</race>
+	
+	<transformationName><![CDATA[feron abdomen]]></transformationName>
+	
+	<coveringType>silverinc_ferondrone_chitin</coveringType>
+	
+	<spinneret>false</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_GENERIC</tag>
+		<tag>TAIL_TAPERING_LINEAR</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[abdomen]]></name>
+	<namePlural><![CDATA[abdomens]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>wasp-like</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>wasp-like</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>soft</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A bump starts to grow above [npc.her] ass which begins to expand gradually until it's about [npc.tailLength] long. [npc.she] look at [npc.her] new appendage and see a [npc.materialDescriptor] abdomen that is tapered at the end with a stinger at the end which [npc.she] [npc.verb(guess)] can produce and inject poison.
+			<br/>[npc.Name] now [npc.has] a [style.boldYellow(feron abdomen)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] bumps starts to grow above [npc.her] ass they begin to expand gradually until there about [npc.tailLength] long. [npc.she] look at [ncp.her] new appendages and see [npc.materialDescriptor] abdomens that are tapered at the end with a stingers at the end each which [ncp.she] [npc.verb(guess)] can produce and inject poison. 
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldYellow(feron abdomens)], [npc.materialDescriptor]
+		#ENDIF 
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		protruding out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron abdomen, which pulsates with [npc.her] heart beat.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] feron abdomens, which pulsates with [npc.her] heart beat.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

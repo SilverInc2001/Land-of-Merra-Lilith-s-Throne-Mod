@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_cocksnapper</race>
+	
+	<transformationName><![CDATA[snapper (cock)]]></transformationName>
+	
+	<coveringType>silverinc_cocksnapper_scales</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>leathery</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>leathery</descriptor>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>leathery</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>leathery</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>leathery</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>thick</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>leathery</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>scale-coated</descriptor>
+		<descriptor>tough</descriptor>
+		<descriptor>thick</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		Within a short time, the skin around [npc.her] arms started to darken and feel loose [npc.she] looks down at her hands and see sharp nails piercing threw the tips of [npc.her] fingers as well as [npc.her] two middle fingers fusing together. Simultaneously small holes in [npc.her] skin started to open up revealing [npc.armFullDescription] which when touched feels coarse like gravel.
+		<br/>As the final pieces of skin fall off, [npc.nameIsFull] left with four fingered, [style.boldDog(cock snapper arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands have formed into four fingered, mountain snapper hands, complete with sharp claws and tough, leathery palms.
+	]]></bodyDescription>
+	
+</arm>

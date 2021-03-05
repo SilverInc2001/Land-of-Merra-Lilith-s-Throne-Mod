@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_slerm</race>
+
+	<transformationName><![CDATA[slerm]]></transformationName>
+
+	<baseFluidType>MILK</baseFluidType>
+
+	<flavour>GIRLCUM</flavour>
+
+	<namesMasculine>
+		<name><![CDATA[slime]]></name>
+	</namesMasculine>
+
+	<namesFeminine>
+		<name><![CDATA[slime]]></name>
+	</namesFeminine>
+
+	<descriptorsMasculine>
+		<name><![CDATA[slimy]]></name>
+	</descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<name><![CDATA[slimy]]></name>
+	</descriptorsFeminine>
+
+	<defaultFluidModifiers/>
+        
+</fluid>

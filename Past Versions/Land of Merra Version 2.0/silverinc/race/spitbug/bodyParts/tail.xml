@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_spitbug</race>
+	
+	<transformationName><![CDATA[Spitbug abdomen]]></transformationName>
+	
+	<coveringType>Aurelia_Raptor_scales</coveringType>
+	
+	<spinneret>true</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_GENERIC</tag>
+		<tag>TAIL_TAPERING_LINEAR</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[tail]]></name>
+	<namePlural><![CDATA[tails]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>raptor-like</descriptor>
+		<descriptor>scaly</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>raptor-like</descriptor>
+		<descriptor>scaly</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>scaly</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>scaly</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A bump starts to grow above [npc.her] ass which begins to expand aggressively until it's about [npc.tailLength] long. [npc.she] suddenly [npc.verb(realise)] that that [npc.she] [npc.has] an opening at the end of the appendage that seemed to be just like an ovipositor. Arousal suddenly hit [npc.her] as the heat started to spread threw [npc.her] abdomen and it starts drooling lubricant, as pressure starts to build in [npc.her] abdomen [npc.she] [npc.verb(feel)] spherical objects start pushing threw [npc.her] newly formed limb. [npc.she] lets out a moan of pleasure as the pressure becomes too much to bear, then suddenly [npc.she] finds release as dozens of round eggs push threw [npc.her] second sexual orifice. Many minuets and eggs later [npc.she] finally stop as [npc.she] her organs finished transforming.
+			<br/>[npc.Name] now [npc.has] a [style.boldHyena(broodmother abdomen)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] bumps starts to grow above [npc.her] ass which begins to expand aggressively until it's about [npc.tailLength] long. [npc.she] suddenly [npc.verb(realise)] that that [npc.she] [npc.has] an openings at the end of the appendages that seemed to be just like an ovipositors. Arousal suddenly hit [npc.her] as the heat started to spread threw [npc.her] abdomens and they start drooling lubricant, as pressure starts to build in [npc.her] abdomens [npc.she] [npc.verb(feel)] spherical objects start pushing threw [npc.her] newly formed limb. [npc.she] lets out a moan of pleasure as the pressure becomes too much to bear, then suddenly [npc.she] finds release as dozens of round eggs push threw [npc.her] new sexual orifices. Many minuets and eggs later [npc.she] finally stop as [npc.she] her organs finished transforming. 
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldHyena(broodmother abdomens)], [npc.materialDescriptor] 
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		protruding out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] broodmother abdomen, which pulsate constantly.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] broodmother abdomens, which pulsate constantly.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

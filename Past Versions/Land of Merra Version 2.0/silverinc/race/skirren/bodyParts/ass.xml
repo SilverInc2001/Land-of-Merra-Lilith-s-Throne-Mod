@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<anusType>silverinc_skirren_anus</anusType>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldSquirrel(skirren)], [npc.assholeFullDescription]. Wap
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a skirren, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+	
+</ass>
