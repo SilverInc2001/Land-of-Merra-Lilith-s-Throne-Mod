@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_slerm</race>
+	
+	<transformationName><![CDATA[slerm]]></transformationName>
+	
+	<coveringType>silverinc_slerm_skin</coveringType>
+	
+	<spinneret>false</spinneret>
+	
+	<defaultGirth>4</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_SKIN</tag>
+		<tag>TAIL_TAPERING_LINEAR</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[tail]]></name>
+	<namePlural><![CDATA[tails]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A slimy, slerm tendral sprouts from just above [npc.her] ass, rapidly growing in size until it's about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has] limited control over it, but [npc.is] still able to help [npc.her] move.
+			<br/>[npc.Name] now [npc.has] a [style.boldRaptorLime(raptor-like tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ELSE
+			[npc.TailCount] slimy, slerm tendral sprouts from just above [npc.her] ass, rapidly growing in size until they're each about [npc.tailLength] long. [npc.She] quickly [npc.verb(realise)] that [npc.she] [npc.has]  limited control over it, but [npc.is] still able to help [npc.her] move.
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldRaptorLime(raptor-like tails)], [npc.materialDescriptor] [npc.tailFullDescription(true)].
+		#ENDIF
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		Growing out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] slerm tendral, which [npc.she] can still use to help [npc.her] walk.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] slerm tendral, which [npc.she] can still use to help [npc.her] walk.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>
