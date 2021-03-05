@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<race>
+	<!-- Core definitions: -->
+	<racialBody>silverinc_slerm</racialBody>
+
+	<applyRaceChanges/>
+
+	<name><![CDATA[slerm]]></name>
+	<namePlural><![CDATA[slerms]]></namePlural>
+
+	<nameFeral>
+		<name legConfiguration="CEPHALOPOD"><![CDATA[slerm]]></name>
+	</nameFeral>
+	<nameFeralPlural>
+		<name legConfiguration="CEPHALOPOD"><![CDATA[slerms]]></name>
+	</nameFeralPlural>
+
+	<defaultTransformName><![CDATA[slerm]]></defaultTransformName>
+
+	<colour>BASE_GREEN_DARK</colour>
+
+	<disposition>UNPREDICTABLE</disposition>
+
+	<racialClass>OTHER</racialClass>
+
+	<feralPartsAvailable>True</feralPartsAvailable>
+
+	<ableToSelfTransform>false</ableToSelfTransform>
+
+	<flyingRace>false</flyingRace>
+
+	<!-- Combat: -->
+	<combatBehaviour>ATTACK</combatBehaviour>
+
+	<!-- Breeding: -->
+	<chanceForMaleOffspring>0.5</chanceForMaleOffspring>
+
+	<numberOfOffspringLow>2</numberOfOffspringLow>
+	<numberOfOffspringHigh>10</numberOfOffspringHigh>
+
+	<!-- Gameplay preferences: -->
+	<defaultFemininePreference>NORMAL</defaultFemininePreference>
+	<defaultMasculinePreference>NORMAL</defaultMasculinePreference>
+
+	<affectedByFurryPreference>true</affectedByFurryPreference>
+</race>

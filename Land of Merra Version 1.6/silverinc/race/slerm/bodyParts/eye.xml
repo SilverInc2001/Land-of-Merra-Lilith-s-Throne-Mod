@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eye>
+	<race>silverinc_slerm</race>
+
+	<transformationName><![CDATA[slerm]]></transformationName>
+
+	<coveringType>silverinc_slerm_eye</coveringType>
+
+	<defaultPairCount>1</defaultPairCount>
+
+	<defaultIrisShape>VERTICAL</defaultIrisShape>
+
+	<defaultPupilShape>VERTICAL</defaultPupilShape>
+
+	<tags>
+		<tag>NIGHT_VISION</tag>
+	</tags>
+
+	<name><![CDATA[stalk]]></name>
+	<namePlural><![CDATA[stalks]]></namePlural>
+
+	<descriptorsMasculine>
+		<descriptor><![CDATA[elongated]]></descriptor>
+		<descriptor><![CDATA[slimy]]></descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor><![CDATA[elongated]]></descriptor>
+		<descriptor><![CDATA[slimy]]></descriptor>
+	</descriptorsFeminine>
+
+	<transformationDescription><![CDATA[
+		[npc.she] feel [npc.her] eyes push and elongate out, by the time [npc.she] hesitantly [npc.verb(open)] them again, they've changed into slimy, slug-like eyes.
+		<br/>[npc.Name] now [npc.has] [style.boldAlligator(slerm eyes)] with [style.boldGenericTF([npc.irisShape])], [npc.irisFullDescription(true)] and [style.boldGenericTF([npc.pupilShape])], [npc.pupilFullDescription(true)] which sit on the end of stalks.
+	]]></transformationDescription>
+
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.eyePairs] slug-like eyes, which sit on the end of elongated stems. They have [npc.irisShape], [npc.irisColour(true)] irises, [npc.pupilShape], [npc.pupilColour(true)] pupils, and [npc.scleraColour(true)] sclerae. Both eyes are inbeded in the stalks
+	]]></bodyDescription>
+</eye>
