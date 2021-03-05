@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<category>MAIN_CHITIN</category>
+	<determiner><![CDATA[a layer of]]></determiner>
+	<name><![CDATA[chitin]]></name>
+	<namePlural pluralByDefault="false"><![CDATA[chitin]]></namePlural>
+	<naturalCoveringModifiers>
+		<modifier>SMOOTH</modifier>
+	</naturalCoveringModifiers>
+	<extraCoveringModifiers/>
+	<naturalPatterns>
+		<pattern weighting="1">NONE</pattern>
+	</naturalPatterns>
+	<extraPatterns/>
+	<naturalColoursPrimary>
+		<colour>COVERING_GREEN</colour>
+		<colour>COVERING_GREEN_LIGHT</colour>
+		<colour>COVERING_GREEN_DARK</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+	</naturalColoursPrimary>
+	<extraColoursPrimary values="allCoveringColours"/>
+	<naturalColoursSecondary>
+		<colour>COVERING_GREEN</colour>
+		<colour>COVERING_GREEN_LIGHT</colour>
+		<colour>COVERING_GREEN_DARK</colour>
+		<colour>COVERING_BROWN</colour>
+		<colour>COVERING_TAN</colour>
+		<colour>COVERING_BROWN_DARK</colour>
+	</naturalColoursSecondary>
+	<extraColoursSecondary values="allCoveringColours"/>
+</coveringType>

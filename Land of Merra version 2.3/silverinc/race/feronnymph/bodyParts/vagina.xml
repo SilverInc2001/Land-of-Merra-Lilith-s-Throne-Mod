@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vagina>
+	<race>silverinc_feronnymph</race>
+	
+	<transformationName><![CDATA[feron nymph]]></transformationName>
+	
+	<coveringType>VAGINA</coveringType>
+	
+	<fluidType>silverinc_feronnymph_girlcum</fluidType>
+	
+	<eggLayer>true</eggLayer>
+	
+	<names>
+		<name><![CDATA[nymph-]]></name>
+	</names>
+	<namesPlural>
+		<name><![CDATA[nymph-]]></name>
+	</namesPlural>
+	
+	<descriptors>
+		<descriptor><![CDATA[hot]]></descriptor>
+		<descriptor><![CDATA[sticky]]></descriptor>
+	</descriptors>
+	
+	<defaultOrificeModifiers>
+		<modifier>PUFFY</modifier>
+		<modifier>OVIPOSITUR</modifier>
+	</defaultOrificeModifiers>
+	
+	<transformationDescription><![CDATA[
+			[npc.She] [npc.verb(let)] out a moan of plesure as a wave of ecstasy washes through [npc.her] groin, causing your lips and clitrus to engorge with arousal. A stream of lubrication runs down [npc.her] legs destracting [npc.herHim] from the changes taking place.
+		</p>
+		<p>
+			While enjoying the sensation of plesure [npc.she] [npc.isAre] experancing, [npc.her] pussy further clenches down, and a desperate squeal escapes from between [npc.her] [npc.lips+]. [npc.She] parts [npc.her] legs to see whats going on, when doing so [npc.her] cum seems abnormaly sticky. [Npc.she] [npc.verb(desides)] to scrape some off [npc.her] legs to get a closer look, when [npc.she] brings it to her face she is hit by a sweat smell. Honey? Suddenly images of throbbing feron cocks slamming deep into [npc.her] pussy flash before [npc.her] eyes, and [npc.her] squeals of suprise turns into a satisfied moans as [npc.she] [npc.verb(imagine)] them pumping their potent seed deep into [npc.her] new womb, eventully making her push out an abundance of feron young. Just as quickly as these feelings came, they fade from [npc.her] mind, and as one last wave of tingling pleasure washes through [npc.her] body, [npc.she] [npc.verb(feel)] [npc.her] female reproductive organs finishing their transformation.
+			<br/>[npc.Name] now [npc.has] a [style.boldYellow(feron vagina)], with [npc.pussyColourPrimary(true)] labia and [npc.pussyColourSecondary(true)] internal walls.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.she] [npc.has] #IF(npc.isPiercedVagina())a pierced#ELSEa#ENDIF feron pussy, with [npc.labiaSize], [npc.pussyPrimaryColour(true)] labia and [npc.pussySecondaryColour(true)] inner-walls.
+	]]></bodyDescription>
+	
+</vagina>

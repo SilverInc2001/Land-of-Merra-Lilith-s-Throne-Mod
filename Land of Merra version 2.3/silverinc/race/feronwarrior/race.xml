@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<race>
+	<racialBody>silverinc_feronwarrior</racialBody>
+	
+	<applyRaceChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+	]]></applyRaceChanges>
+	
+	<name><![CDATA[feron warrior]]></name>
+	<namePlural><![CDATA[feron warriors]]></namePlural>
+	
+	<nameFeral>
+		<name legConfiguration="BIPEDAL"><![CDATA[feron warrior]]></name>
+	</nameFeral>
+	<nameFeralPlural>
+		<name legConfiguration="BIPEDAL"><![CDATA[feron warrior]]></name>
+	</nameFeralPlural>
+	
+	<defaultTransformName><![CDATA[feron warrior]]></defaultTransformName>
+	
+	<colour>BASE_YELLOW</colour>
+	
+	<disposition>UNPREDICTABLE</disposition>
+	
+	<racialClass>INSECT</racialClass>
+	
+	<feralPartsAvailable>false</feralPartsAvailable>
+	
+	<ableToSelfTransform>false</ableToSelfTransform>
+        
+	<flyingRace>true</flyingRace>
+	
+	<combatBehaviour>ATTACK</combatBehaviour>
+	
+	<chanceForMaleOffspring>0</chanceForMaleOffspring>
+	
+	<numberOfOffspringLow>1</numberOfOffspringLow>
+	<numberOfOffspringHigh>8</numberOfOffspringHigh>
+	
+	<defaultFemininePreference>MAXIMUM</defaultFemininePreference>
+	<defaultMasculinePreference>HUMAN</defaultMasculinePreference>
+	
+	<affectedByFurryPreference>false</affectedByFurryPreference>
+	
+</race>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_harpysnapper</race>
+	
+	<transformationName><![CDATA[snapper (Harpy)]]></transformationName>
+	
+	<coveringType>silverinc_harpysnapper_feathers</coveringType>
+	
+	<allowsFlight>true</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>feathered</descriptor>
+		<descriptor>feather-coated</descriptor>
+		<descriptor>scaled</descriptor>
+		<descriptor>tough</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feathered</descriptor>
+		<descriptor>feather-coated</descriptor>
+		<descriptor>scaled</descriptor>
+		<descriptor>tough</descriptor>>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>sharp</descriptor>
+		<descriptor>strong</descriptor>
+		<descriptor>four-fingered</descriptor>
+		<descriptor>feathered</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>sharp</descriptor>
+		<descriptor>strong</descriptor>
+		<descriptor>four-fingered</descriptor>
+		<descriptor>feathered</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>leathery</descriptor>
+		<descriptor>thick</descriptor>
+		<descriptor>dexterous</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>leathery</descriptor>
+		<descriptor>thick</descriptor>
+		<descriptor>dexterous</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		Within a matter of moments, a layer of [npc.armFullDescription] has quickly grown over them, and, looking down, [npc.she] [npc.verb(see)] [npc.her] new feathers growing over the backs of [npc.her] hands as sharp claws push out to replace [npc.her] fingernails. [npc.Her] palms rapidly transform to be [npc.materialDescriptor] tough and leathery, and at [npc.her] upper-biceps, [npc.her] feathers smoothly transition into the [npc.skin] that's covering the rest of [npc.her] body.
+		<br/>As the transformation comes to an end, [npc.nameIsFull] left with four fingered, [style.boldDog(harpy snapper arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands have formed into four fingered, harpy snapper hands, complete with sharp claws and tough, leathery palms.
+	]]></bodyDescription>
+	
+</arm>

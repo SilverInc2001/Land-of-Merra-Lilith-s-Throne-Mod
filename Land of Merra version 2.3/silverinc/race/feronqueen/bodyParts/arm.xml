@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_feronqueen</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronqueen_chitin</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>smooth</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>smooth</descriptor>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>hard</descriptor>
+		<descriptor>smooth</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>hard</descriptor>
+		<descriptor>smooth</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>hard</descriptor>
+		<descriptor>smooth</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>hard</descriptor>
+		<descriptor>smooth</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		[npc.her] arms start to feel strangely tight as pressure builds up under [npc.her] skin. The pressure within [npc.her] arms felt unbearable as if being inflated from the inside. Just before the pain started to become too much to handle, [npc.her] skin when numb. Managing to steady [npc.her] breath, [npc.she] [npc.verb(decide)] to take a look at [npc.her] arms. [npc.her] arms now look strange. [npc.her] arms seemed to of taken on a dull grey colour, as if [npc.her] skin was old latex. Experimentally [npc.she] [npc.verb(try)] to move [npc.her] arm. But in doing so, [npc.she] instantly hear a grizzly ripping noise. [npc.she] [npc.verb(look)] around to find the origin of the noise but realise that it was [npc.her] own skin that had ripped. [npc.she] see a piece of skin hanging from [npc.her] elbow. Hesitantly [npc.she] [npc.verb(decide)] to pull at the skin. In doing so, all of [npc.her] arm’s skin comes off like a glove. As [npc.she] [npc.verb(watch)] [npc.her] old skin hit the floor, [npc.she] [npc.verb(forget)] to look at what has replaced it. Slowly [npc.she] [npc.verb(start)] to look at [npc.her] new arms, which  now are covered in [npc.armFullDescription].
+		<br/>As the final areas of skin change colour, [npc.nameIsFull] are now left with armoured [style.boldYellow(feron arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands have formed into hard, feron hands, complete sharp fingers and tough palms.
+	]]></bodyDescription>
+	
+</arm>

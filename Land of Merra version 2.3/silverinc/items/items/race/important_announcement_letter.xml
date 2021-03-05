@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>0</value> 
+		<determiner><![CDATA[an poster containing a]]></determiner>
+		<name><![CDATA[Important Announcment]]></name>
+		<namePlural pluralByDefault="false"><![CDATA[Important Announcements]]></namePlural>
+		<description><![CDATA[An important announcement from Merra Imports.Inc]]></description> 
+		
+		<useDescriptor>read</useDescriptor>
+		
+		<sexUse>false</sexUse>
+		<combatUseAllies>false</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>false</consumedOnUse>
+		
+		<rarity>COMMON</rarity> 
+		
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="-15" imageSize="80">important_announcement_letter.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+		
+		<colourPrimary>BASE_TAN</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+		
+		<enchantmentItemTypeId>POTION</enchantmentItemTypeId>
+		<enchantmentEffectId>NONE</enchantmentEffectId>
+		
+		<effectTooltipLines>
+		</effectTooltipLines>
+		
+		<applyEffects><![CDATA[
+		]]></applyEffects>
+		
+		<itemTags>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.she] desides to look at the letter, [npc.name] [npc.verb(bring)] the letter from the slerm to [npc.her] eyes and started to read it.
+                <br/>
+                <br/>Importent Announcement, 
+                <br/>
+                <br/>As of today all distribution of our product is strictly prohibited without a licence. This is due to a robbery that took place during the transport of a shipment of product. If you have any information regarding the aforementioned robbery in this notice please inform your local law enfacement office as soon as possible, anyone found holding information about this robbery will be charged with obstruction of justice. 
+                <br/>
+                <br/>If you are found selling any products produced by Merra Imports.Inc without a licence you will be tried in your local court of law for illegally distributing a controlled substance, and if found guilty you will be sentenced in accordance to local laws. If you find any illegal product within someone’s possession you may give it to your local Merra Imports.Inc distributer to receive a finder’s fee.
+                <br/>
+                <br/>We are also having reports that a local transformative dealer known only as Madam Eris is flooding the local populous with tainted Merra Imports.Inc products. We would like to confirm that we have no association to Madam Eris in any way of form and personally condemn her actions. If you encounter anyone exposed to these tainted products or Madam Eris herself, please avoid them at all costs and report their whereabouts to your local police. Exposure to these individuals may lead to you being physically violate or even transformed against your will.
+                <br/>
+                <br/>We thank you for reading this announcement and hope you continue to enjoy your experiences with our products.  
+                <br/>
+                <br/>Sincerely, 
+                <br/>
+                <br/>Merra Imports.Inc 
+
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.she] [npc.verb(decide)] to show the poster to [npc2.name], but they art intrested in some corporate problem.
+		]]></otherUse>
+	</useDescriptions>
+
+	
+</item>

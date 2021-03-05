@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_swampsnapper</race>
+	
+	<colour>BASE_GREEN_LIME</colour>
+	<secondaryColour>BASE_GREEN_LIME</secondaryColour>
+	<tertiaryColour>BASE_GREEN_LIME</tertiaryColour>
+	
+	<mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_swamp_snapper_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_swamp_snapper</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>true</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 18)]
+		[#targetedBody.setCoveringPattern(BODY_COVERING_TYPE_silverinc_swampsnapper_scales, true, COVERING_PATTERN_MARKED)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_swampsnapper_scales, true).setPrimaryColour(BASE_GREEN)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_swampsnapper_scales, true).setSeconderyColour(BASE_GREEN_LIGHT)]
+		[#targetedBody.getArm().setType(null,ARM_TYPE_silverinc_swampsnapper_arm)]]
+		[#targetedBody.getBreast().setType(null,BREAST_TYPE_silverinc_swampsnapper_breast)]]
+		#IF(targetedBody.isFeminine())
+			[#targetedBody.setHeight(targetedBody.getHeightValue()*1.05)]
+		#ENDIF
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_swampsnapper)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Snappy Snappers</bookName>
+	
+	<basicDescriptionId>SNAPPER_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SNAPPER_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[swamp snapper]]></name>
+	<namePlural><![CDATA[swamp snappers]]></namePlural>
+	<singularMaleName><![CDATA[swamp snapper-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[swamp snapper-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[swamp snapper-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[swamp snapper-girls]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a Swamp Snapper.]]></description>
+	
+	<nameHalfDemon><![CDATA[swamp snapper-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[swamp snapper-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[swamp snapper-demon]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[swamp snapper-demon]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[swamp snapper-demons]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[swamp snapper-demons]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[swamp snapper]]></feralName>
+		<feralNamePlural><![CDATA[swamp snapper]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[swamp snapper]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[swamp snapper]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[swamp snapper]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[swamp snapper]]></feralPluralFemaleName>
+		
+		<legConfiguration>DIGIGRADE</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] swamp snapper body is very strong, and [npc.she] [npc.has] a primal urge propergate with any living being within the area (in the mountins).
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+	
+	<worldLocations>
+			<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+	
+	<flags/>
+	
+</subspecies>

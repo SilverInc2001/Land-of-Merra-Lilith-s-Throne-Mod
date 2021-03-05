@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<race>silverinc_slerm</race>
+        
+	<transformationName><![CDATA[slerm]]></transformationName>
+        
+	<coveringType>silverinc_slerm_skin</coveringType>
+        
+	<nippleType>silverinc_slerm_nipple</nippleType>
+        
+	<fluidType>silverinc_slerm_milk</fluidType>
+        
+	<names/>
+        
+	<namesPlural/>
+        
+	<descriptors/>
+        
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+	<descriptorsFlat/>
+        
+        
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldAlligator(slerm)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldAlligator(slerm-ooze)].
+	]]></transformationDescription>
+        
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] synthetic, [npc.nipplesFullDescription].
+	]]></bodyDescription>
+        
+        
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldAlligator(slerm)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldAlligator(slerm-ooze)].
+	]]></crotchBoobsTransformationDescription>
+        
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] slug-like, [npc.crotchNipplesFullDescription].
+	]]></crotchBoobsBodyDescription>
+        
+</breast>

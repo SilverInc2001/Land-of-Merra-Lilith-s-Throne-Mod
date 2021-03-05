@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<torso>
+	<race>silverinc_ferondrone</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_ferondrone_skin</coveringType>
+	
+	<descriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>supple</descriptor>
+        </descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>supple</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<transformationDescription><![CDATA[
+		[npc.she] [npc.verb(notice)] [npc.her] skin has started to feel abnormally smooth and supple making [npc.her] look at your body in confusion. Suddenly [ncp.she] let out a moan of plesure as [npc.her] skin starts to become sensative [ncp.she] [npc.verb(notice)] [npc.her] skin is slowly turning vibrent yellow.
+		<br/>[npc.Name] now [npc.has] [style.boldYellow(feron)], [npc.skinFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] torso has [npc.a_femininity(true)] appearance, and is [npc.materialCompositionDescriptor] [npc.skinFullDescription(true)].
+	]]></bodyDescription>
+	
+	<tags/>
+	
+</torso>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>	
+	<race>silverinc_mountainsnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>silverinc_mountainsnapper_scales</coveringType>
+	
+	<mouthType>silverinc_mountainsnapper_mouth</mouthType>
+	
+	<tags>
+		<tag>FACE_MUZZLE</tag>
+		<tag>FACE_NATURAL_BALDNESS_SCALY</tag>
+	</tags>
+	
+	<names/>
+	<namesPlural/> 
+	
+	<descriptorsMasculine>
+		<descriptor>feral</descriptor>
+		<descriptor>predatory</descriptor>
+		<descriptor>carnivorous</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feral</descriptor>
+		<descriptor>predatory</descriptor>
+		<descriptor>carnivorous</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<noseName><![CDATA[nose]]></noseName>
+	<noseNamePlural><![CDATA[noses]]></noseNamePlural>
+	
+	<noseDescriptorsMasculine/>
+	<!-- Same as above, but for feminine characters. -->
+	<noseDescriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.Her] nose and mouth twitch and transform as they push out into a bestial snapper muzzle, and [npc.her] tongue grows wider, turning into a similarly animalistic shape.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+			 A layer of [npc.faceSkin+] quickly grows to cover [npc.her] new face, 
+		#ELSE
+			 Just like the rest of [npc.her] body, [npc.her] new face is [npc.materialDescriptor] [npc.faceSkin+], 
+		#ENDIF
+		and as the transformation finally comes to an end, [npc.sheIs] left panting and hissing as [npc.she] [npc.verb(try)] to catch [npc.her] breath.
+		<br/>[npc.Name] now [npc.has] an brutish [style.boldDog(snapper face)], [npc.materialDescriptor] [npc.faceFullDescription]. Within [npc.her] [npc.mouth], [npc.she] has a [style.boldDog(wide, snapper tongue)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], beastly, snapper face [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle.
+	]]></bodyDescription>
+	
+	<bodyDescriptionFeral><![CDATA[
+		[npc.SheHasFull] the [npc.feminineDescriptor(true)] face of a feral [npc.legRace], which is [npc.materialDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle.
+	]]></bodyDescriptionFeral>
+	
+</face>

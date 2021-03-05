@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_deepseasnapper</race>
+	
+	<colour>BASE_AQUA</colour>
+	<secondaryColour>BASE_AQUA</secondaryColour>
+	<tertiaryColour>BASE_AQUA</tertiaryColour>
+	
+        <mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_deep_sea_snapper_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_deep_sea_snapper_spit</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>true</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 18)]
+		[#targetedBody.setCoveringPattern(BODY_COVERING_TYPE_silverinc_deepseasnapper_scales, true, COVERING_PATTERN_SPOTTED)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_deepseasnapper_scales, true).setPrimaryColour(BASE_BLUE)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_deepseasnapper_scales, true).setSecondaryColour(BASE_BLUE_LIGHT)]
+		[#targetedBody.getArm().setType(null,ARM_TYPE_silverinc_deepseasnapper_arm)]]
+		[#targetedBody.getLeg().setType(null,LEG_TYPE_silverinc_deepseasnapper_leg)]]
+		[#targetedBody.getEar().setType(null,EAR_TYPE_silverinc_deepseasnapper_ear)]]
+		[#targetedBody.getBreast().setType(null,BREAST_TYPE_silverinc_deepseasnapper_breast)]]
+		#IF(targetedBody.isFeminine())
+			[#targetedBody.setHeight(targetedBody.getHeightValue()*1.05)]
+		#ENDIF
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_deepseasnapper)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Snappy Snappers</bookName>
+	
+	<basicDescriptionId>SNAPPER_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SNAPPER_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[deep-sea snapper]]></name>
+	<namePlural><![CDATA[deep-sea snappers]]></namePlural>
+	<singularMaleName><![CDATA[deep-sea snapper-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[deep-sea snapper-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[deep-sea snapper-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[deep-sea snapper-girls]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a Deep Sea Snapper]]></description>
+	
+	<nameHalfDemon><![CDATA[deep-sea snapper-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[deep-sea snapper-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[deep-sea snapper-demon]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[deep-sea snapper-demon]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[deep-sea snapper-demons]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[deep-sea snapper-demons]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[deep-sea snapper]]></feralName>
+		<feralNamePlural><![CDATA[deep-sea snapper]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[deep-sea snapper]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[deep-sea snapper]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[deep-sea snapper]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[deep-sea snapper]]></feralPluralFemaleName>
+		
+		<legConfiguration>DIGIGRADE</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>false</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] Deep-sea snapper body is very strong, and [npc.she] [npc.has] a primal urge propergate with any living being within the area (in the sea).
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+	
+	<worldLocations>
+			<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+	
+	<flags/>
+	
+</subspecies>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_slerm</race>
+        
+	<transformationName><![CDATA[slerm]]></transformationName>
+        
+	<baseFluidType>CUM</baseFluidType>
+        
+	<flavour>CUM</flavour>
+        
+	<namesMasculine>
+		<name><![CDATA[slimy]]></name>
+	</namesMasculine>
+        
+	<namesFeminine>
+		<name><![CDATA[slimy]]></name>
+	</namesFeminine>
+        
+	<descriptorsMasculine/>
+        
+	<descriptorsFeminine/>
+        
+	<defaultFluidModifiers>
+		<modifier>VISCOUS</modifier>
+		<modifier>STICKY</modifier>
+		<modifier>SLIMY</modifier>
+	</defaultFluidModifiers>
+        
+</fluid>

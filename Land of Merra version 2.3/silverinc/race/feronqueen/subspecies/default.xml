@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_feronqueen</race>
+	
+	<colour>BASE_YELLOW</colour>
+	<secondaryColour>BASE_YELLOW</secondaryColour>
+	<tertiaryColour>BASE_YELLOW</tertiaryColour>
+	
+	<mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_feron_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_feronqueen_Honey</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 0)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 0)]
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_feronqueen)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Hive of The Feron</bookName>
+	
+	<basicDescriptionId>FERON_BASIC</basicDescriptionId>
+	<advancedDescriptionId>FERON_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[feron queen]]></name>
+	<namePlural><![CDATA[feron queens]]></namePlural>
+	<singularMaleName><![CDATA[feron queen]]></singularMaleName>
+	<singularFemaleName><![CDATA[feron queen]]></singularFemaleName>
+	<pluralMaleName><![CDATA[feron queens]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[feron queens]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a feron queen.]]></description>
+	
+	<nameHalfDemon><![CDATA[corrupted queen]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[corrupted queens]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[corrupted queen]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[corrupted queen]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[corrupted queens]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[corrupted queens]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[feral queen]]></feralName>
+		<feralNamePlural><![CDATA[feral queens]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[feral queen]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[feral queen]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[feral queens]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[feral queens]]></feralPluralFemaleName>
+		
+		<legConfiguration>BIPEDAL</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>0</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] body has been transformed into a feron queen making you able to start your own hive.
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+
+	<worldLocations>
+		<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+
+	<flags/>
+	
+</subspecies>

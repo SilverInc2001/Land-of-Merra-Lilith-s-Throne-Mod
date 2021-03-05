@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<item>
+	<coreAttributes>
+		<value>1000</value> 
+		<determiner><![CDATA[A]]></determiner>
+		<name><![CDATA[Queen's Egg]]></name>
+		<namePlural pluralByDefault="true"><![CDATA[Queen's Eggs]]></namePlural>
+		<description><![CDATA[A small smooth egg which is produced by a queen of a spitbug hive, it has been made safe for consumption by an enchantment. It is extremely hard to obtain for obvious reasons, so is quite valuable. These eggs are supplied by "Merra Imports.Inc". "if enchantment is tampered with Merra Imports cannot be held responsible for changes to consumers body or actions that take place when said body has been changed".]]></description> 
+
+		<useDescriptor>egg</useDescriptor>
+
+		<sexUse>true</sexUse>
+		<combatUseAllies>true</combatUseAllies>
+		<combatUseEnemies>false</combatUseEnemies>
+		<consumedOnUse>true</consumedOnUse>
+
+		<rarity>RARE</rarity> 
+
+		<imageName zLayer="0" imageRotation="0" imageSize="100">background_bottom.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="90" target1='stroke="#000"' replacement1='stroke="#ff5555"' target2='#ff8080' replacement2='#ff5555'>res/mods/silverinc/race/spitbugbroodmother/subspecies/icon.svg</imageName>
+		<imageName zLayer="1" imageRotation="0" imageSize="70">spitbugbroodmother_vial.svg</imageName>
+		<imageName zLayer="2" imageRotation="0" imageSize="100">background_top.svg</imageName>
+
+		<colourPrimary>BASE_GREEN_LIGHT</colourPrimary>
+		<colourSecondary/>
+		<colourTertiary/>
+
+		<potionDescriptor><![CDATA[broodmother]]></potionDescriptor>
+		<associatedRace>silverinc_spitbugbroodmother</associatedRace>
+		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
+		<enchantmentEffectId>RACE</enchantmentEffectId>
+
+		<effectTooltipLines>
+			<line><![CDATA[[style.boldGood(Restores)] 30% [style.boldHealth([#ATTRIBUTE_HEALTH_MAXIMUM.getName()])]]]></line>
+		</effectTooltipLines>
+
+		<applyEffects><![CDATA[
+			[##npc.incrementHealth(npc.getAttributeValue(ATTRIBUTE_HEALTH_MAXIMUM)/2)]
+			<p style='margin-bottom:0; padding-bottom:0;'>
+				[npc.Name] [npc.verb(feel)] [npc.her] injuries start to heal...
+			</p>
+		]]></applyEffects>
+
+		<itemTags>
+			<tag>RACIAL_TF_ITEM</tag>
+			<tag>SOLD_BY_RALPH</tag>
+		</itemTags>
+	</coreAttributes>
+
+	<useDescriptions>
+		<selfUse><![CDATA[
+		[npc.Name] [npc.verb(hold)] the egg and [npc.verb(look)] at the soft slightly squishy shell. [npc.She] then [npc.verb(brace)] [npc.her]self and [npc.verb(insert)] the egg in your mouth, the shell instintly desolves and a liquid is left in [npc.her] mouth so instinctively [npc.she] [npc.verb(swallow)] it which leaves a strange aftertaste.
+		]]></selfUse>
+		<otherUse><![CDATA[
+		[npc.Name] [npc.verb(hold)] the egg and [npc.verb(hold)] it out to [npc2.name], allowing [npc2.herHim] at the soft slightly squishy shell. Reluctantly, [npc2.she] then [npc2.verb(brace)] [npc2.her]self and inserted the egg in [npc2.her] mouth, the shell instintly desolves and a liquid was left in [npc2.her] mouth so instinctively [npc2.she] [npc.verb(swallow)] it which leaves a strange aftertaste. 
+		]]></otherUse>
+	</useDescriptions>
+</item>
