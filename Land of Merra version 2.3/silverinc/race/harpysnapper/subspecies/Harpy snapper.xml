@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_harpysnapper</race>
+	
+	<colour>BASE_RED_LIGHT</colour>
+	<secondaryColour>BASE_RED_LIGHT</secondaryColour>
+	<tertiaryColour>BASE_RED_LIGHT</tertiaryColour>
+	
+        <mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_harpy_snapper_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_harpy_snapper_spit</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 18)]
+		[#targetedBody.setCoveringPattern(BODY_COVERING_TYPE_silverinc_harpysnapper_scales, true, COVERING_PATTERN_OMBRE)]
+		[#targetedBody.getArm().setType(null,ARM_TYPE_silverinc_harpysnapper_arm)]]
+		[#targetedBody.getBreast().setType(null,BREAST_TYPE_silverinc_harpysnapper_breast)]]
+		#IF(targetedBody.isFeminine())
+			[#targetedBody.setHeight(targetedBody.getHeightValue()*1.05)]
+		#ENDIF
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_harpysnapper)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Snappy Snappers</bookName>
+	
+	<basicDescriptionId>SNAPPER_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SNAPPER_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[harpy snapper]]></name>
+	<namePlural><![CDATA[harpy snappers]]></namePlural>
+	<singularMaleName><![CDATA[harpy snapper-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[harpy snapper-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[harpy snapper-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[harpy snapper-girls]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a Harpy Snapper]]></description>
+	
+	<nameHalfDemon><![CDATA[harpy snapper-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[harpy snapper-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[harpy snapper-demon]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[harpy snapper-demon]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[harpy snapper-demons]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[harpy snapper-demons]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[harpy snapper]]></feralName>
+		<feralNamePlural><![CDATA[harpy snapper]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[harpy snapper]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[harpy snapper]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[harpy snapper]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[harpy snapper]]></feralPluralFemaleName>
+		
+		<legConfiguration>DIGIGRADE</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] desert snapper body is very strong, and [npc.she] [npc.has] a primal urge propergate with any living being within the area (normally attacking them from the skies).
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+	
+	<worldLocations>
+			<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+	
+	<flags/>
+	
+</subspecies>

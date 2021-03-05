@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<race>
+	<racialBody>silverinc_desertsnapper</racialBody>
+	
+	<applyRaceChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+	]]></applyRaceChanges>
+	
+	<name><![CDATA[snapper]]></name>
+	<namePlural><![CDATA[snappers]]></namePlural>
+	
+	<nameFeral>
+		<name legConfiguration="BIPEDAL"><![CDATA[snapper]]></name>
+	</nameFeral>
+	<nameFeralPlural>
+		<name legConfiguration="BIPEDAL"><![CDATA[snappers]]></name>
+	</nameFeralPlural>
+	
+	<defaultTransformName><![CDATA[snapper]]></defaultTransformName>
+	
+	<colour>BASE_TAN</colour>
+	
+	<disposition>UNPREDICTABLE</disposition>
+	
+	<racialClass>REPTILE</racialClass>
+	
+	<feralPartsAvailable>false</feralPartsAvailable>
+	
+	<ableToSelfTransform>false</ableToSelfTransform>
+        
+	<flyingRace>false</flyingRace>
+	
+	<combatBehaviour>ATTACK</combatBehaviour>
+	
+	<chanceForMaleOffspring>0.5</chanceForMaleOffspring>
+	
+	<numberOfOffspringLow>5</numberOfOffspringLow>
+	<numberOfOffspringHigh>8</numberOfOffspringHigh>
+	
+	<defaultFemininePreference>MAXIMUM</defaultFemininePreference>
+	<defaultMasculinePreference>MAXIMUM</defaultMasculinePreference>
+	
+	<affectedByFurryPreference>false</affectedByFurryPreference>
+	
+</race>

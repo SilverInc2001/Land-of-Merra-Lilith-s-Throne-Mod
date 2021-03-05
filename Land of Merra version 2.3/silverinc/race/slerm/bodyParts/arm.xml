@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_slerm</race>
+
+	<transformationName><![CDATA[slerm]]></transformationName>
+
+	<coveringType>silverinc_slerm_skin</coveringType>
+
+	<allowsFlight>false</allowsFlight>
+
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+
+	<descriptorsMasculine>
+		<descriptor>slug-like</descriptor>
+		<descriptor>slimy</descriptor>
+	</descriptorsMasculine>
+
+	<descriptorsFeminine>
+		<descriptor>slug-like</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>slippery</descriptor>
+	</descriptorsFeminine>
+
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>slippery</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>slug-like</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>slippery</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>slug-like</descriptor>
+	</handDescriptorsFeminine>
+
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>slippery</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>slug-like</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>slippery</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>slug-like</descriptor>
+	</fingerDescriptorsFeminine>
+
+	<transformationDescription><![CDATA[
+		Within a matter of moments, a layer of [npc.armFullDescription] has quickly grown over them, and, looking down, [npc.she] [npc.verb(see)] that [npc.her] arms are being covered in a thin layer of slime. At [npc.her] upper-biceps, the slime reached to her upper arm's [npc.skin] that's covering the rest of [npc.her] body.
+		<br/>As the transformation comes to an end, [npc.nameIsFull] left with slick, [style.boldAlligator(slerm arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription]. [npc.she] notices that where ever [npc.she] touches a thin layer of slime is left behind that looks just like what she consmed moments ago.
+	]]></transformationDescription>
+
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] arms and hands are covered in slug skin, with slime dripping off every joint.
+	]]></bodyDescription>
+	
+</arm>
