@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wing>
+	<race>silverinc_spitbug</race>
+	
+	<transformationName><![CDATA[spitbug queen]]></transformationName>
+	
+	<coveringType>silverinc_spitbug_chitin</coveringType>
+	
+	<allowsFlight>true</allowsFlight>
+	
+	<minimumSize>ZERO_TINY</minimumSize>
+	<maximumSize>FOUR_HUGE</maximumSize>
+	
+	<name><![CDATA[wing]]></name>
+	<namePlural><![CDATA[wings]]></namePlural>
+	
+	<descriptorsMasculine>
+		<descriptor><![CDATA[insectale]]></descriptor>
+		<descriptor><![CDATA[transparent]]></descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor><![CDATA[insectile]]></descriptor>
+		<descriptor><![CDATA[transparent]]></descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+			[npc.She] [npc.verb(bite)] [npc.her] [npc.lip] to try and suppress an unexpected moan of pleasure as a pair of [npc.wingSize], insectile wings push out from [npc.her] shoulder blades.
+		<br/>[npc.Name] now [npc.has] [style.boldTfGeneric(spitbug queen wings)].
+	]]></transformationDescription>
+	
+	<!-- How this wing is described in a character's description page. -->
+	<bodyDescription><![CDATA[
+		[npc.sheHasFull] a pair of [npc.wingSize], insectile wings, which are [npc.materialDescriptor] [npc.wingFullDescription(true)].
+	]]></bodyDescription>
+	
+</wing>

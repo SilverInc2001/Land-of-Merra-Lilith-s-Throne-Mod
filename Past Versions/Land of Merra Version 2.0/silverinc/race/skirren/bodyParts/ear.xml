@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<tags>
+		<tag>EAR_HANDLES_IN_SEX</tag>
+	</tags>	
+
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	
+	<descriptorsMasculine>
+		<descriptor>furry</descriptor>
+		<descriptor>pointed</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>furry</descriptor>
+		<descriptor>pointed</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		They quickly begin to grow out and backward, becoming long and furred, starting just behind [npc.her] eyes. Heh ears go whoosh
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+		 A layer of [npc.earFullDescriptionColour] quickly grows to cover them,
+		#ELSE
+		 Just like the rest of [npc.her] body, they're made out of [npc.earFullDescription],
+		#ENDIF
+		 and as the transformation finishes, [npc.she] playfully [npc.verb(touch)] [npc.her] new skirren ears. Mmm soft.
+		<br/>[npc.Name] now [npc.has] [style.boldJackalSquirral(skirren ears)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription]. Lieutenant fluffy ears reporting for dudy, heh dudy.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of noticeable, #IF(npc.isPiercedEar()) pierced,#ENDIF skirren ears, which are positioned just behind [npc.her] eyes and are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+	
+</ear>

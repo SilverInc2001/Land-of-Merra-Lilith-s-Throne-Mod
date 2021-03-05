@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tentacle>
+	<race>silverinc_slerm</race>
+	<transformationName><![CDATA[slerm]]></transformationName>
+	<coveringType>silverinc_slerm_SKIN</coveringType>
+	<defaultGirth>4</defaultGirth>
+	<defaultLengthAsPercentageOfHeight>2.5</defaultLengthAsPercentageOfHeight>
+	<tags>
+		<tag>TAIL_TAPERING_NONE</tag>
+		<tag>TAIL_SUTABLE_FOR_PENETRATION</tag>
+		<tag>TAIL_PREHENSILE</tag>
+		<tag>TAIL_SLEEP_HUGGING</tag>
+	</tags>
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural>
+	<name><![CDATA[tentacle]]></name>
+	<namePlural><![CDATA[tentacles]]></namePlural>
+	<descriptorsMasculine>
+		<descriptor>strong</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>strong</descriptor>
+		<descriptor>slimy</descriptor>
+		<descriptor>sticky</descriptor>
+	</descriptorsFeminine>
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>rounded</descriptor>
+	</tipDescriptorsFeminine>
+	<transformationDescription><![CDATA[
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		In place of legs, [npc.sheHasFull] [npc.tentacleCount] [npc.tentacleColour(true)] tentacles, over which [npc.sheHasFull] complete control, allowing [npc.herHim] to use them to grip and hold objects.
+	]]></bodyDescription>
+</tentacle>

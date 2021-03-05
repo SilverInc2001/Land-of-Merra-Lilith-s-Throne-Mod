@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<anus>
+	<race>silverinc_slerm</race>
+	
+	<coveringType>ANUS</coveringType>
+	
+	<names/>
+	<namesPlural/>
+
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	<defaultOrificeModifiers>
+		<modifier>SQUIRTER</modifier>
+	</defaultOrificeModifiers>
+</anus>

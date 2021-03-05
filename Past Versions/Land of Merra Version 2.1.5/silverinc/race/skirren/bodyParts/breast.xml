@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<nippleType>silverinc_skirren_nipple</nippleType>
+	
+	<fluidType>silverinc_skirren_milk</fluidType>
+	
+	<names/>
+	
+	<namesPlural/>
+	
+	<descriptors/>
+	
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+	<descriptorsFlat/>
+	
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldSquirrel(skirren)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldSquirrel(skirren milk)]. Heh boobs.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] skirren, [npc.nipplesFullDescription]. Breasts go boing!
+	]]></bodyDescription>
+	
+	
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldSquirrel(skirren)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldSquirrel(skirren milk)]. Yay more cushions!
+	]]></crotchBoobsTransformationDescription>
+	
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] skirren, [npc.crotchNipplesFullDescription]. Bottom breasts go boing!
+	]]></crotchBoobsBodyDescription>
+	
+</breast>

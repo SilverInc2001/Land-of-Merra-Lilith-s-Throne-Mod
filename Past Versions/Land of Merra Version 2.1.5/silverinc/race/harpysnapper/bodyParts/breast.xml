@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<breast>
+	<race>silverinc_harpysnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>silverinc_harpysnapper_scales</coveringType>
+	
+	<nippleType>silverinc_harpysnapper_nipple</nippleType>
+	
+	<fluidType>silverinc_harpysnapper_milk</fluidType>
+	
+	<names/>
+	
+	<namesPlural/>
+	
+	<descriptors/>
+	
+	
+	<namesFlat/>
+	
+	<namesPluralFlat/>
+	
+	<descriptorsFlat/>
+	
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldDog(snapper)], [npc.nipplesFullDescription], and when lactating, [npc.she] will produce [style.boldDog(snapper "milk")].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		On each of [npc.her] [npc.breastSize] [npc.breasts], [npc.she] [npc.has] [npc.nipplesPerBreast] snapper, [npc.nipplesFullDescription].
+	]]></bodyDescription>
+	
+	
+	<crotchBoobsTransformationDescription><![CDATA[
+		[npc.She] now [npc.has] [style.boldDog(snapper)], [npc.crotchNipplesFullDescription], and when lactating, [npc.she] will produce [style.boldDog(snapper "milk")].
+	]]></crotchBoobsTransformationDescription>
+	
+	<crotchBoobsBodyDescription><![CDATA[
+		On each of [npc.her] [npc.crotchBoobSize] [npc.crotchBoobs], [npc.she] [npc.has] [npc.crotchNipplesPerBreast] snapper, [npc.crotchNipplesFullDescription].
+	]]></crotchBoobsBodyDescription>
+	
+</breast>

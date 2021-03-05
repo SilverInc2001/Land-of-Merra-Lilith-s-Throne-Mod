@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_deepseasnapper</race>
+	
+	<transformationName><![CDATA[deepseasnapper (Deep Sea)]]></transformationName>
+	
+	<coveringType>silverinc_deepseasnapper_scales</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>scaled</descriptor>
+		<descriptor>sea serpent-like</descriptor>
+		<descriptor>webbed</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>scaled</descriptor>
+		<descriptor>sea serpent-like</descriptor>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>scaled</descriptor>
+		<descriptor>smooth</descriptor>
+		<descriptor>webbed</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>scaled</descriptor>
+		<descriptor>smooth</descriptor>
+		<descriptor>webbed</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>		
+                <descriptor>webbed</descriptor>
+		<descriptor>webbed</descriptor>
+		<descriptor>feral</descriptor>
+		<descriptor>sharp</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>webbed</descriptor>
+		<descriptor>feral</descriptor>
+		<descriptor>sharp</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		Within a matter of moments, the skin around [npc.her] arms feel loose. [npc.she] [npc.verb(look)] at [npc.her] arms and [npc.verb(notice)] they look like pale streched gloves. As [npc.she] [npc.verb(move)] [npc.her] arms [npc.she] [npc.verb(see)] small holes on [npc.her] arms getting bigger and bigger slowly revealing new skin consisting of [npc.armFullDescription].
+		<br/>As the final pieces skin fall off, [npc.nameIsFull] left with feral four thingered arms, [style.boldDog(deep sea snapper arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands have formed into four fingered snapper hands, complete with sharp claws and tough, scaly palms.
+	]]></bodyDescription>
+	
+</arm>

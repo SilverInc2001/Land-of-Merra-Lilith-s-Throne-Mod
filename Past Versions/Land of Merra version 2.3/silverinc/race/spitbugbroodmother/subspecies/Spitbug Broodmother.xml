@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<colour>BASE_BROWN_DARK</colour>
+	<secondaryColour>BASE_BROWN_DARK</secondaryColour>
+	<tertiaryColour>BASE_BROWN_DARK</tertiaryColour>
+	
+	<mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_spitbug_broodmother_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_queen's_egg</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 0)]
+		[#targetedBody.getAntenna().setType(null,ANTENNA_TYPE_silverinc_spitbugbroodmother_antennaBroodmother)]]
+		[#targetedBody.getLeg().setType(null,LEG_TYPE_silverinc_spitbugbroodmother_legBroodmother)]]
+		[#targetedBody.getNipple().setType(null,NIPPLE_TYPE_silverinc_spitbug_nippleBroodmother)]]
+		[#targetedBody.getWing().setType(null,WING_TYPE_silverinc_spitbugbroodmother_wingBroodmother)]]
+
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_spitbugbroodmother)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Spiting Spitbugs</bookName>
+	
+	<basicDescriptionId>SPITBUG_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SPITBUG_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[spitbug broodmother]]></name>
+	<namePlural><![CDATA[spitbug broodmothers]]></namePlural>
+	<singularMaleName><![CDATA[spitbug broodmother]]></singularMaleName>
+	<singularFemaleName><![CDATA[spitbug broodmother]]></singularFemaleName>
+	<pluralMaleName><![CDATA[spitbug broodmother]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[spitbug broodmother]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a spitbug.]]></description>
+	
+	<nameHalfDemon><![CDATA[spitbug broodmother-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[spitbug broodmother-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[spitbug broodmother-incubus]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[spitbug broodmother-succubus]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[spitbug broodmother-incubi]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[spitbug broodmother-succubi]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[broodmother]]></feralName>
+		<feralNamePlural><![CDATA[broodmother]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[broodmother]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[broodmother]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[broodmother]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[broodmother]]></feralPluralFemaleName>
+		
+		<legConfiguration>QUADRUPEDAL</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>3</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>0</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>true</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] body has been transformed into a spitbug merging you with the local hive
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+
+	<worldLocations>
+		<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+
+	<flags/>
+	
+</subspecies>

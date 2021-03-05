@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<face>	
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<mouthType>silverinc_skirren_mouth</mouthType>
+	
+	<tags>
+		<tag>FACE_MUZZLE</tag>
+		<tag>FACE_NATURAL_BALDNESS_FURRY</tag>
+	</tags>
+	
+	<names/>
+	<namesPlural/> 
+	
+	<descriptorsMasculine>
+		<descriptor>skirren</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>skirren</descriptor>
+	</descriptorsFeminine>
+	
+	
+	<noseName><![CDATA[nose]]></noseName>
+	<noseNamePlural><![CDATA[noses]]></noseNamePlural>
+	
+	<noseDescriptorsMasculine/>
+	<noseDescriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.Her] nose and mouth twitch and transform as they push out into a skirren's muzzle, and [npc.her] tongue flattens, thins and grows longer, turning into a similarly animalistic one.
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+			 A layer of [npc.faceSkin+] quickly grows to cover [npc.her] new face, 
+		#ELSE
+			 Just like the rest of [npc.her] body, [npc.her] new face is [npc.materialDescriptor] [npc.faceSkin+], 
+		#ENDIF
+		and as the transformation finally comes to an end, [npc.her] head starts to feel funny, [npc.her] body starts to fill up with energy and it becomes hard to focus. Then as if a switch flicked in [npc.her] head [npc.she] starts to feel happy, really happy as if looking threw the eyes of a child. Ideas run threw [npc.her] head "What does electricity tast like?", "Can I leave a building from the roof?".
+		<br/>[npc.Name] now [npc.has] an [style.boldSquirrel(skirren face and mind)], [npc.materialDescriptor] [npc.faceFullDescription]. Within [npc.her] [npc.mouth], [npc.she] has a [style.boldSquirrel(Skirren tongue)]. Roar i'm a cat.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.a_feminineDescriptor(true)], skirren face [npc.materialCompositionDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle. Chomp.
+	]]></bodyDescription>
+	
+	<bodyDescriptionFeral><![CDATA[
+		[npc.SheHasFull] the [npc.feminineDescriptor(true)] face of a [npc.legRace], which is [npc.materialDescriptor] [npc.faceFullDescription(true)] and complete with a muzzle. Chomp.
+	]]></bodyDescriptionFeral>
+	
+</face>

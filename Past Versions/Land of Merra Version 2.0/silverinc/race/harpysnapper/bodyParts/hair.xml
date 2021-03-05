@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hair>
+	<race>silverinc_harpysnapper</race>
+	
+	<transformationName><![CDATA[snapper (Harp)]]></transformationName>
+	
+	<coveringType>silverinc_harpysnapper_feathers</coveringType>
+	
+	<tags>
+	</tags>
+	
+	<determiner><![CDATA[a head of]]></determiner>
+	
+	<name><![CDATA[feathers]]></name>
+	
+	<namePlural pluralByDefault="false"><![CDATA[hairs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>feathery</descriptor>
+		<descriptor>feather-like</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feathery</descriptor>
+		<descriptor>feather-like</descriptor>
+	</descriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		The transformation only lasts a matter of moments, leaving [npc.herHim] with feather-like hair.
+		<br/>[npc.Name] now [npc.has] [npc.hairColour] [style.boldDog(harpy snapper hair)].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] [npc.hairDeterminer] [npc.hairLength], [npc.hairColour(true)], feather-like hair
+	]]></bodyDescription>
+	
+</hair>

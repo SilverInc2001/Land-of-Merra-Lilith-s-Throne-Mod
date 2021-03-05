@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<arm>
+	<race>silverinc_skirren</race>
+	
+	<transformationName><![CDATA[skirren]]></transformationName>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<allowsFlight>false</allowsFlight>
+	
+	<tags>
+		<tag>ARM_STANDARD</tag>
+	</tags>
+	
+	<name><![CDATA[arm]]></name>
+	<namePlural><![CDATA[arms]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>fur</descriptor>
+		<descriptor>fur-coated</descriptor>
+		<descriptor>furred</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>furry</descriptor>
+		<descriptor>fur-coated</descriptor>
+		<descriptor>furred</descriptor>
+	</descriptorsFeminine>
+	
+	<handName><![CDATA[hand]]></handName>
+	<handNamePlural><![CDATA[hands]]></handNamePlural>
+	<handDescriptorsMasculine>
+		<descriptor>soft</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsMasculine>
+	<handDescriptorsFeminine>
+		<descriptor>soft</descriptor>
+		<descriptor>feminine</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>clawed</descriptor>
+	</handDescriptorsFeminine>
+	
+	<fingerName><![CDATA[finger]]></fingerName>
+	<fingerNamePlural><![CDATA[fingers]]></fingerNamePlural>
+	<fingerDescriptorsMasculine>
+		<descriptor>padded</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>furry</descriptor>
+	</fingerDescriptorsMasculine>
+	<fingerDescriptorsFeminine>
+		<descriptor>soft</descriptor>
+		<descriptor>feminine</descriptor>
+		<descriptor>padded</descriptor>
+		<descriptor>furry</descriptor>
+	</fingerDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		Within a matter of moments, a layer of [npc.armFullDescription] has quickly grown over them, and, looking down, [npc.she] [npc.verb(see)] [npc.her] new fur growing over the backs of [npc.her] hands as your fingers merge into four and sharp claws push out to replace [npc.her] fingernails. [npc.Her] palms rapidly transform to be [npc.materialDescriptor] padded and thin, and at [npc.her] upper-biceps, [npc.her] fur smoothly transitions into the [npc.skin] that's covering the rest of [npc.her] body. Suddenly [npc.she] [npc.verb(have)] the urge to touch and interact with everything within the area. 
+		<br/>As the transformation comes to an end, [npc.nameIsFull] left with [style.boldSquirrel(skirren arms and hands)], which are [npc.materialDescriptor] [npc.armFullDescription]. I'm a call them Grabby and umm Grabby two.
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+	[npc.She] [npc.has] [npc.armRows] arms, which are [npc.materialCompositionDescriptor] [npc.armFullDescription(true)]. [npc.Her] hands are formed into furry skirren hands, complete with sharp claws and padded digits. I'm a gunna scratch you.
+	]]></bodyDescription>
+	
+</arm>

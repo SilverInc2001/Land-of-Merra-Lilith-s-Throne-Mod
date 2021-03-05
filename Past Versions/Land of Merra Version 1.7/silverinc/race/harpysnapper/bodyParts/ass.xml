@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ass>
+	<race>silverinc_harpysnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>silverinc_harpysnapper_scales</coveringType>
+	
+	<anusType>silverinc_harpysnapper_anus</anusType>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptorsMasculine/>
+	<descriptorsFeminine/>
+	
+	<transformationDescription><![CDATA[
+		[npc.She] now [npc.has] a [style.boldDog(snapper)], [npc.assholeFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.SheHasFull] a snapper, [npc.anusFullDescription(true)]
+	]]></bodyDescription>
+	
+</ass>

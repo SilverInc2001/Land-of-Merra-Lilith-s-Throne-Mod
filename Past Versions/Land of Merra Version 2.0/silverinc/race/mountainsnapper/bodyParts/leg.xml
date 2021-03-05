@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<leg>
+	<race>silverinc_mountainsnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>silverinc_mountainsnapper_scales</coveringType>
+	
+	<defaultFootStructure>DIGITIGRADE</defaultFootStructure>
+	
+	<footType>DIGITIGRADE</footType>
+	
+	<spinneret>false</spinneret>
+	
+	<tentacleType>NONE</tentacleType>
+	
+	<tentacleCount>0</tentacleCount>
+	
+	<allowedLegConfigurations>
+		<configuration>BIPEDAL</configuration>
+	</allowedLegConfigurations>
+	
+	<name><![CDATA[leg]]></name>
+	<namePlural><![CDATA[legs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>muscly</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>strong</descriptor>
+		<descriptor>scale-coated</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>muscly</descriptor>
+		<descriptor>scaly</descriptor>
+		<descriptor>strong</descriptor>
+		<descriptor>scale-coated</descriptor>
+	</descriptorsFeminine>
+	
+	<footDescriptorsMasculine>
+		<descriptor>three-toed</descriptor>
+	</footDescriptorsMasculine>
+	<footDescriptorsFeminine>
+		<descriptor>three-toed</descriptor>
+	</footDescriptorsFeminine>
+	
+	<toeDescriptorsMasculine>
+		<descriptor>sharp</descriptor>
+	</toeDescriptorsMasculine>
+	<toeDescriptorsFeminine>
+		<descriptor>sharp</descriptor>
+	</toeDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		[npc.her] skin starts to feel tight as dark patches form on the thinnest parts of [npc.her] skin, [npc.her] feet start to deform as [npc.her] toes start to fuse and long talons rip threw the tips of [npc.her] tight skin. Suddenly [npc.her] skin gives into the tention and rips apart agressivly revealing [npc.legFullDescription].
+		<br/>[npc.Name] now [npc.has] reptilian, [style.boldDog(snapper legs and feet)], which are [npc.materialDescriptor] [npc.legFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] legs are [npc.materialCompositionDescriptor] [npc.legFullDescription(true)], and [npc.her] feet are formed into three toed snapper feet, complete with sharp claws and rough reptilian skin.
+	]]></bodyDescription>
+	
+</leg>

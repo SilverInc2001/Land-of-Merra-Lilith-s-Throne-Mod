@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tail>
+	<race>silverinc_cocksnapper</race>
+	
+	<transformationName><![CDATA[snapper]]></transformationName>
+	
+	<coveringType>silverinc_cocksnapper_scales</coveringType>
+	
+	<spinneret>false</spinneret>
+	
+	<defaultGirth>2</defaultGirth>
+	
+	<defaultLengthAsPercentageOfHeight>0.6</defaultLengthAsPercentageOfHeight>
+	
+	<tags>
+		<tag>TAIL_TYPE_SCALES</tag>
+                <tag>TAIL_SUTABLE_FOR_PENETRATION</tag>
+		<tag>TAIL_TAPERING_NONE</tag>
+	</tags>
+	
+	<determiner><![CDATA[]]></determiner>
+	<determinerPlural><![CDATA[]]></determinerPlural> 
+	
+	<name><![CDATA[tail]]></name>
+	<namePlural><![CDATA[tails]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>thick</descriptor>
+		<descriptor>scaly</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>thick</descriptor>
+		<descriptor>scaly</descriptor>
+	</descriptorsFeminine>
+	
+	<tipName><![CDATA[tip]]></tipName>
+	<tipNamePlural><![CDATA[tips]]></tipNamePlural>
+	<tipDescriptorsMasculine>
+		<descriptor>scaly</descriptor>
+	</tipDescriptorsMasculine>
+	<tipDescriptorsFeminine>
+		<descriptor>scaly</descriptor>
+	</tipDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		#IF(npc.getTailCount()==1)
+			A scaly, tail sprouts from just above [npc.her] ass, rapidly growing in size until it's about [npc.tailLength] long. But something feels strange suddenly [npc.she] [npc.verb(let)] out an involuntary moan, [npc.name] [npc.verb(feel)] [npc.her] tail further shifting and engorging into a new form, and [npc.sheIs] hit by a wave of overwhelming arousal as the veins of [npc.her] tail bulge outward. [npc.her] tail develops further as glands start to take shape on the tip of the tail, [npc.she] no long just have a tail but a throbbing tail cock, ready to penetrate the wall of any orifice it comes across. As [npc.she] [npc.verb(pant)] and [npc.verb(gasp)] for air, the tip of [npc.her] tail cock spurts out a monumental amount of cum.
+			<br/>[npc.Name] now [npc.has] a [style.boldDog(cock snapper tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)] which can release snapper cum.
+		#ELSE
+			[npc.TailCount] scaly, tails sprouts from just above [npc.her] ass, rapidly growing in size until it's about [npc.tailLength] long. But something feels strange suddenly [npc.she] [npc.verb(let)] out an involuntary moan, [npc.name] [npc.verb(feel)] [npc.her] tail further shifting and engorging into a new form, and [npc.sheIs] hit by a wave of overwhelming arousal as the veins of [npc.her] tail bulge outward. [npc.her] tail develops further as glands start to take shape on the tip of the tail, [npc.she] no long just have a tail but a throbbing tail cock, ready to penetrate the wall of any orifice it comes across. As [npc.she] [npc.verb(pant)] and [npc.verb(gasp)] for air, the tip of [npc.her] tail cock spurts out a monumental amount of cum.
+			<br/>[npc.Name] now [npc.has] [npc.tailCount] [style.boldDog(cock snapper tail)], [npc.materialDescriptor] [npc.tailFullDescription(true)] which can release snapper cum.
+		#ENDIF
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		Growing out from just above [npc.her] ass, [npc.sheHasFull]
+		#IF(npc.getTailCount()==1)
+			 a #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] cock snapper tail, which [npc.she] can swish from side to side at will.
+		#ELSE
+			 [npc.tailCount] #IF(npc.isTailFeral()) [style.colourFeral(feral)],#ENDIF [npc.tailColour(true)] cock snapper tails, which [npc.she] can swish from side to side at will.
+		#ENDIF
+	]]></bodyDescription>
+	
+</tail>

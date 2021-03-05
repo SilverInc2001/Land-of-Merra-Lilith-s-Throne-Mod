@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<nipple>
+	<race>silverinc_cocksnapper</race>
+	
+	<coveringType>NIPPLES</coveringType>
+	
+	<descriptorsMasculine>
+		<descriptor>cock tip like</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>cock tip like</descriptor>
+	</descriptorsFeminine>
+	
+	<defaultOrificeModifiers>
+		<modifier>PUFFY</modifier>
+	</defaultOrificeModifiers>
+
+</nipple>

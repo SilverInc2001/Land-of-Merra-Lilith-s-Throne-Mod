@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<race>silverinc_harpysnapper</race>
+	
+	<coveringType>silverinc_harpysnapper_scales</coveringType>
+	
+	<fluidType>silverinc_harpysnapper_cum</fluidType>
+	
+	<internal>false</internal>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptors/>
+	
+</testicle>

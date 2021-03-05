@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<leg>
+	<race>silverinc_feronwarrior</race>
+	
+	<transformationName><![CDATA[feron]]></transformationName>
+	
+	<coveringType>silverinc_feronwarrior_chitin</coveringType>
+	
+	<defaultFootStructure>DIGITIGRADE</defaultFootStructure>
+	
+	<footType>ARACHNID</footType>
+	
+	<spinneret>false</spinneret>
+	
+	<tentacleType>NONE</tentacleType>
+	
+	<tentacleCount>0</tentacleCount>
+	
+	<allowedLegConfigurations>
+		<configuration>BIPEDAL</configuration>
+	</allowedLegConfigurations>
+	
+	<name><![CDATA[leg]]></name>
+	<namePlural><![CDATA[legs]]></namePlural> 
+	
+	<descriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</descriptorsFeminine>
+	
+	<footDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</footDescriptorsMasculine>
+	<footDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</footDescriptorsFeminine>
+	
+	<toeDescriptorsMasculine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</toeDescriptorsMasculine>
+	<toeDescriptorsFeminine>
+		<descriptor>feminine</descriptor>
+		<descriptor>plated</descriptor>
+		<descriptor>hard</descriptor>
+	</toeDescriptorsFeminine>
+	
+	<transformationDescription><![CDATA[
+		TThe skin around [npc.her] legs starts to feel tight. As if wearing jeans that are just a bit too snug. The sensation feels strange, but [npc.she] quickly realise [npc.her] skin is still getting tighter and tighter. [npc.She] [npc.verb(let)] out a moan as even the skin around [npc.her] groin is stretched. The constant expanding sensation starts to become too much as pleasure turns to pain, but just before [npc.she] [npc.verb(reach)] [npc.her] pain threshold, [npc.her] skin goes numb. 
+Curious why [npc.she] lost all feeling in [npc.her] lower half, [npc.she] [npc.verb(decide)] to look at [npc.her] legs. [npc.Her] legs have seemed to have gone grey, so [npc.she] hesitantly choose to touch them out of curiosity. To [npc.her] surprise, [npc.her] legs feel entirely different. [npc.Her] once malleable legs are now rockhard. [npc.Her] skin feels like a loose covering over [npc.her] legs. [npc.She] then look down at [npc.her] feet and notice they seem misshapen. [npc.She] try to move [npc.her] toes, but in doing so, [npc.her] skin rips. Piece by piece, parts of [npc.her] skin hit the floor, Revealing vibrant yellows and dark blacks. [npc.She] look once again at [npc.her] now changed legs which are now covered in [npc.materialDescriptor] and notice the changes have finished.
+		<br/>[npc.Name] now [npc.has] hard chitnus, [style.boldYellow(feron legs and feet)], which are [npc.materialDescriptor] [npc.legFullDescription].
+	]]></transformationDescription>
+	
+	<bodyDescription><![CDATA[
+		[npc.Her] legs are [npc.materialCompositionDescriptor] [npc.legFullDescription(true)], and [npc.her] feet are formed into hard chitnus feron feet, complete with two toes and hard soles.
+	]]></bodyDescription>
+	
+</leg>

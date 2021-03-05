@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<leg>
+	<race>silverinc_skirren</race>
+
+	<transformationName><![CDATA[skirren]]></transformationName>	
+
+	<coveringType>silverinc_skirren_fur</coveringType>
+
+	<defaultFootStructure>DIGITIGRADE</defaultFootStructure>
+
+	<footType>PAWS</footType>
+
+	<spinneret>false</spinneret>
+
+	<tentacleType>NONE</tentacleType>
+
+	<tentacleCount>0</tentacleCount>
+
+	<allowedLegConfigurations>
+		<configuration>BIPEDAL</configuration>
+	</allowedLegConfigurations>
+
+	<name><![CDATA[leg]]></name>
+	<namePlural><![CDATA[legs]]></namePlural> 
+
+	<descriptorsMasculine>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</descriptorsFeminine>
+
+	<footDescriptorsMasculine>
+		<descriptor>padded</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</footDescriptorsMasculine>
+	<footDescriptorsFeminine>
+		<descriptor>padded</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</footDescriptorsFeminine>
+
+	<toeDescriptorsMasculine>
+		<descriptor>clawed</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</toeDescriptorsMasculine>
+	<toeDescriptorsFeminine>
+		<descriptor>clawed</descriptor>
+		<descriptor>furry</descriptor>
+		<descriptor>soft</descriptor>
+		<descriptor>fur-coated</descriptor>
+	</toeDescriptorsFeminine>
+
+	<transformationDescription><![CDATA[
+		A layer of fur quickly grows over [npc.her] legs as they shift into a new form. As [npc.her] new furry hide spreads down to the ends of [npc.her] toes, [npc.her] toenails thicken into sharp claws, and tough leathery pads grow to cover [npc.her] soles, leaving [npc.herHim] with odd, hand-like, skirren feet. As the transformation ends, [npc.she] [npc.verb(see)] that [npc.her] new fur smoothly transitions into the [npc.skin] covering the rest of [npc.her] body at [npc.her] upper-thigh. Suddenly just as [npc.she] thought the transformation ended [npc.her] skin around [npc.her] hips starts to sag and starts to form a natural skirt down to [npc.her] ankles. [npc.she] experimentally move your legs and find out it doesn't impede [npc.her] movement in any way.
+		<br/>[npc.Name] now [npc.has] [style.boldSquirrel(skirren legs and feet)], which are [npc.materialDescriptor] [npc.legFullDescription]. I'm a going to boing so high now.
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.Her] legs are [npc.materialCompositionDescriptor] [npc.legFullDescription(true)], and [npc.her] feet are formed into skirren paws, complete with sharp claws and tough, leathery, padded soles. [npc.her] skirren skirt rests comfortably around [npc.her] legs. So warm.
+	]]></bodyDescription>
+	
+</leg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<antenna>
+	<race>silverinc_spitbugbroodmother</race>
+
+	<transformationName><![CDATA[spitbug]]></transformationName>
+
+	<coveringType>ANTENNA</coveringType>
+
+	<defaultAntennaePerRow>6</defaultAntennaePerRow>
+
+	<name><![CDATA[antenna]]></name>
+	<namePlural><![CDATA[antennae]]></namePlural>
+
+	<descriptorsMasculine>
+		<descriptor>insect-like</descriptor>
+		<descriptor>thick</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>insect-like</descriptor>
+		<descriptor>delicate</descriptor>
+	</descriptorsFeminine>
+
+	<transformationDescription><![CDATA[
+	sleek, insect-like [npc.antennae].
+	<br/>[npc.Name] now [npc.has] [npc.antennaeDeterminer] [style.boldHyena(insect-like) [npc.antennae]].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+	[npc.AntennaeDeterminer] [npc.antennaSize], [npc.antennaColour(true)] [npc.antennae] #IF(npc.getTotalHorns()==1)grows#ELSEgrow#ENDIF out of the #IF(npc.getHornsPerRow()==1)middle#ELSEsides#ENDIF of [npc.her] forehead.
+	]]></bodyDescription>
+
+</antenna>

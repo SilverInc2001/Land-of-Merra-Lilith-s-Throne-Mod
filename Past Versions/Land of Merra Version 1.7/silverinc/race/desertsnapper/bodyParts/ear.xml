@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ear>
+	<race>silverinc_desertsnapper</race>
+	<transformationName><![CDATA[snapper]]></transformationName>
+	<coveringType>silverinc_desertsnapper_scales</coveringType>
+	<tags/>
+	<name><![CDATA[ear]]></name>
+	<namePlural><![CDATA[ears]]></namePlural>
+	<descriptorsMasculine>
+		<descriptor>scaly</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsMasculine>
+	<descriptorsFeminine>
+		<descriptor>scaly</descriptor>
+		<descriptor>internal</descriptor>
+	</descriptorsFeminine>
+	<transformationDescription><![CDATA[
+		#IF(npc.getBodyMaterial()==BODY_MATERIAL_FLESH)
+		 A layer of [npc.earFullDescriptionColour] quickly grows to cover them,
+		#ELSE
+		 Just like the rest of [npc.her] body, they're made out of [npc.earFullDescription],
+		#ENDIF
+		 and as the transformation finishes, [npc.she] experimentally [npc.verb(feel)] the scaly surface of [npc.her] earholes.
+		<br/>[npc.Name] now [npc.has] [style.boldDog(snapper earholes)], which are [npc.materialCompositionDescriptor] [npc.earFullDescription].
+	]]></transformationDescription>
+	<bodyDescription><![CDATA[
+		[npc.She] [npc.has] a pair of #IF(npc.isPiercedEar()) pierced,#ENDIF snapper ears that are [npc.materialCompositionDescriptor] [npc.earFullDescription(true)].
+	]]></bodyDescription>
+</ear>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testicle>
+	<race>silverinc_skirren</race>
+	
+	<coveringType>silverinc_skirren_fur</coveringType>
+	
+	<fluidType>silverinc_skirren_cum</fluidType>
+	
+	<internal>false</internal>
+	
+	<names/>
+	<namesPlural/>
+	
+	<descriptors/>
+	
+</testicle>

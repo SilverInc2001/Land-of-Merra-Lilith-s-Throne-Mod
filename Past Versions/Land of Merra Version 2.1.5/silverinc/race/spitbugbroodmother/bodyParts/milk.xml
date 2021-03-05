@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fluid>
+	<race>silverinc_spitbugbroodmother</race>
+	
+	<transformationName><![CDATA[spitbug]]></transformationName>
+	
+	<baseFluidType>MILK</baseFluidType>
+	
+	<flavour>GIRL_CUM</flavour>
+
+	<namesMasculine/>
+	<namesFeminine/>
+	
+	<descriptorsMasculine>
+		<name><![CDATA[spitbug]]></name>
+	</descriptorsMasculine>
+	
+	<descriptorsFeminine>
+		<name><![CDATA[spitbug]]></name>
+	</descriptorsFeminine>
+	
+	<defaultFluidModifiers/>
+	
+</fluid>

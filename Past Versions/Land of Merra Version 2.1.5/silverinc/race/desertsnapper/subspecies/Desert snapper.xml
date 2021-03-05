@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<subspecies>
+	<race>silverinc_desertsnapper</race>
+	
+	<colour>BASE_TAN</colour>
+	<secondaryColour>BASE_TAN</secondaryColour>
+	<tertiaryColour>BASE_TAN</tertiaryColour>
+	
+        <mainSubspecies>true</mainSubspecies>
+	
+	<baseSlaveValue>75000</baseSlaveValue>
+	
+	<attributeItemId>silverinc_desert_snapper_letter</attributeItemId>
+	
+	<transformativeItemId>silverinc_desert_snapper_spit</transformativeItemId>
+	
+	<subspeciesOverridePriority>0</subspeciesOverridePriority>
+	
+	<shortStature>false</shortStature>
+	
+	<bipedalSubspecies>true</bipedalSubspecies>
+	
+	<aquatic>false</aquatic>
+	
+	<applySubspeciesChanges><![CDATA[
+		[#targetedBody.getVagina().getClitoris().setGirth(null, 4)]
+		[#targetedBody.getVagina().getClitoris().setClitorisSize(null, 18)]
+		[#targetedBody.setCoveringPattern(BODY_COVERING_TYPE_silverinc_desertsnapper_scales, true, COVERING_PATTERN_OMBRE)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_desertsnapper_scales, true).setPrimaryColour(BASE_TAN)]
+		[#targetedBody.getCovering(BODY_COVERING_TYPE_silverinc_desertsnapper_scales, true).setSecondaryColour(BASE_TAN_LIGHT)]
+		[#targetedBody.getArm().setType(null,ARM_TYPE_silverinc_desertsnapper_arm)]]
+		[#targetedBody.getBreast().setType(null,BREAST_TYPE_silverinc_desertsnapper_breastVeiny)]]
+		#IF(targetedBody.isFeminine())
+			[#targetedBody.setHeight(targetedBody.getHeightValue()*1.05)]
+		#ENDIF
+	]]></applySubspeciesChanges>
+	
+	<subspeciesWeighting><![CDATA[
+		#IF(targetedRace==RACE_silverinc_desertsnapper)
+			100
+		#ELSE
+			0
+		#ENDIF
+	]]></subspeciesWeighting>
+	
+	<iconName displaySize="80">icon</iconName>
+	
+	<backgroundName>background</backgroundName>
+	
+	<bookIconName>icon</bookIconName>
+	
+	<bookName>Snappy Snappers</bookName>
+	
+	<basicDescriptionId>SNAPPER_BASIC</basicDescriptionId>
+	<advancedDescriptionId>SNAPPER_ADVANCED</advancedDescriptionId>
+	
+	<defaultPreference>TWO_AVERAGE</defaultPreference>
+	
+	<name><![CDATA[desert snapper]]></name>
+	<namePlural><![CDATA[desert snappers]]></namePlural>
+	<singularMaleName><![CDATA[desert snapper-boy]]></singularMaleName>
+	<singularFemaleName><![CDATA[desert snapper-girl]]></singularFemaleName>
+	<pluralMaleName><![CDATA[desert snapper-boys]]></pluralMaleName>
+	<pluralFemaleName><![CDATA[desert snapper-girls]]></pluralFemaleName>
+	
+	<description><![CDATA[A person who has been transformed into a Desert Snapper]]></description>
+	
+	<nameHalfDemon><![CDATA[desert snapper-demon]]></nameHalfDemon>
+	<namePluralHalfDemon><![CDATA[desert snapper-demons]]></namePluralHalfDemon>
+	<singularMaleNameHalfDemon><![CDATA[desert snapper-demon]]></singularMaleNameHalfDemon>
+	<singularFemaleNameHalfDemon><![CDATA[desert snapper-demon]]></singularFemaleNameHalfDemon>
+	<pluralMaleNameHalfDemon><![CDATA[desert snapper-demons]]></pluralMaleNameHalfDemon>
+	<pluralFemaleNameHalfDemon><![CDATA[desert snapper-demons]]></pluralFemaleNameHalfDemon>
+	
+	<feralAttributes>
+		<!-- Naming: -->
+		<feralName><![CDATA[desert snapper]]></feralName>
+		<feralNamePlural><![CDATA[desert snapper]]></feralNamePlural>
+		<feralSingularMaleName><![CDATA[desert snapper]]></feralSingularMaleName>
+		<feralSingularFemaleName><![CDATA[desert snapper]]></feralSingularFemaleName>
+		<feralPluralMaleName><![CDATA[desert snapper]]></feralPluralMaleName>
+		<feralPluralFemaleName><![CDATA[desert snapper]]></feralPluralFemaleName>
+		
+		<legConfiguration>DIGIGRADE</legConfiguration>
+		<sizeHeight>true</sizeHeight>
+		<size>90</size>
+		
+		<breastRowCount>1</breastRowCount>
+		<nipplesPerBreastCount>1</nipplesPerBreastCount>
+		<crotchBreastRowCount>1</crotchBreastRowCount>
+		<nipplesPerCrotchBreastCount>1</nipplesPerCrotchBreastCount>
+		
+		<armsOrWingsPresent>true</armsOrWingsPresent>
+		<fingerActionsAvailable>true</fingerActionsAvailable>
+		<hairPresent>false</hairPresent>
+	</feralAttributes>
+	
+	<statusEffectDescription><![CDATA[
+		[npc.NamePos] desert snapper body is very strong, and [npc.she] [npc.has] a primal urge propergate with any living being within the area (in the desert).
+	]]></statusEffectDescription>
+	
+	<statusEffectAttributeModifiers>
+		<attribute value="15">MAJOR_PHYSIQUE</attribute>
+		<attribute value="50">MAJOR_CORRUPTION</attribute>
+		<attribute value="10">DAMAGE_PHYSICAL</attribute>
+		<attribute value="75">CRITICAL_DAMAGE</attribute>
+	</statusEffectAttributeModifiers>
+	
+	<extraEffects/>
+	
+	<perkWeightings>
+		<category masculineWeighting="10" feminineWeighting="10">PHYSICAL</category>
+		<category masculineWeighting="1" feminineWeighting="1">LUST</category>
+		<category masculineWeighting="0" feminineWeighting="0">ARCANE</category>
+	</perkWeightings>
+	
+	<regionLocations>
+		<region rarity="THREE_UNCOMMON">DOMINION</region>
+		<region rarity="THREE_UNCOMMON">JUNGLE_CITY</region>
+		<region rarity="THREE_UNCOMMON">WOODLAND</region>
+	</regionLocations>
+	
+	<worldLocations>
+			<world rarity="ONE_VERY_RARE">NIGHTLIFE_CLUB</world>
+	</worldLocations>
+
+	<placeLocations>
+		<place rarity="THREE_UNCOMMON">DOMINION_CANAL</place>
+		<place rarity="THREE_UNCOMMON">DOMINION_ALLEYS_CANAL_CROSSING</place>
+	</placeLocations>
+	
+	<flags/>
+	
+</subspecies>

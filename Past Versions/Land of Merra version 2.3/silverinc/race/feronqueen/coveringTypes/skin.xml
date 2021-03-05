@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<coveringType>
+	<category>MAIN_SKIN</category>
+	
+	<determiner><![CDATA[a layer of]]></determiner>
+	
+	<name><![CDATA[skin]]></name>
+	
+	<namePlural pluralByDefault="false"><![CDATA[skin]]></namePlural> 
+	
+	<naturalCoveringModifiers>
+		<modifier>SMOOTH</modifier>
+	</naturalCoveringModifiers>
+	
+	<extraCoveringModifiers/>
+	
+	<naturalPatterns>
+		<pattern weighting="1">STRIPED</pattern>
+	</naturalPatterns>
+	
+	<extraPatterns/>
+	
+	
+	<naturalColoursPrimary>
+		<colour>COVERING_YELLOW</colour>
+		<colour>COVERING_YELLOW_PALE</colour>
+		<colour>COVERING_YELLOW_LIGHT</colour>
+	</naturalColoursPrimary> 
+	
+	<extraColoursPrimary values="allCoveringColours"/>
+	
+	<naturalColoursSecondary>
+		<colour>COVERING_BLACK</colour>
+	</naturalColoursSecondary>
+	
+	<extraColoursSecondary values="allCoveringColours"/>
+	
+</coveringType>
