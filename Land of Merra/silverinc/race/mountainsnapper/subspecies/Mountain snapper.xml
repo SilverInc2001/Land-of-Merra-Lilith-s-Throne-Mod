@@ -2,9 +2,9 @@
 <subspecies>
 	<race>silverinc_mountainsnapper</race>
 	
-	<colour>BASE_GRAY</colour>
-	<secondaryColour>BASE_GRAY</secondaryColour>
-	<tertiaryColour>BASE_GRAY</tertiaryColour>
+	<colour>BASE_GREY</colour>
+	<secondaryColour>BASE_GREY</secondaryColour>
+	<tertiaryColour>BASE_GREY</tertiaryColour>
 	
 	<mainSubspecies>true</mainSubspecies>
 	

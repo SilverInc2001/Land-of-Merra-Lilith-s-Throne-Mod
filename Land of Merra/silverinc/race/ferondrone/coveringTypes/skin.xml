@@ -23,8 +23,10 @@
 	
 	<naturalColoursPrimary>
 		<colour>COVERING_YELLOW</colour>
-		<colour>COVERING_YELLOW_PALE</colour>
-		<colour>COVERING_YELLOW_LIGHT</colour>
+		<colour>COVERING_SANDY</colour>
+		<colour>COVERING_DIRTY_BLONDE</colour>
+		<colour>COVERING_BLONDE</colour>
+		<colour>COVERING_BLEACH_BLONDE</colour>
 	</naturalColoursPrimary> 
 	
 	<extraColoursPrimary values="allCoveringColours"/>

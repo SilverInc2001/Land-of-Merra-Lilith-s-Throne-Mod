@@ -2,9 +2,9 @@
 <subspecies>
 	<race>silverinc_cocksnapper</race>
 	
-	<colour>BASE_GRAY_LIGHT</colour>
-	<secondaryColour>BASE_GRAY_LIGHT</secondaryColour>
-	<tertiaryColour>BASE_GRAY_LIGHT</tertiaryColour>
+	<colour>BASE_GREY_LIGHT</colour>
+	<secondaryColour>BASE_GREY_LIGHT</secondaryColour>
+	<tertiaryColour>BASE_GREY_LIGHT</tertiaryColour>
 	
 	<mainSubspecies>true</mainSubspecies>
 	

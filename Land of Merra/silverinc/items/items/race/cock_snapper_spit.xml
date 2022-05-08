@@ -21,12 +21,12 @@
 		<imageName zLayer="2" imageRotation="0" imageSize="100">cock_snapper_vial.svg</imageName>
 		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
 		
-		<colourPrimary>BASE_GRAY_LIGHT</colourPrimary>
-		<colourSecondary>BASE_GRAY_LIGHT</colourSecondary>
+		<colourPrimary>BASE_GREY_LIGHT</colourPrimary>
+		<colourSecondary>BASE_GREY_LIGHT</colourSecondary>
 		<colourTertiary>BASE_TAN</colourTertiary>
 		
 		<potionDescriptor><![CDATA[snapper]]></potionDescriptor>
-		<associatedRace>silverinc_cocknapper</associatedRace>
+		<associatedRace>silverinc_cocksnapper</associatedRace>
 
 		<enchantmentItemTypeId>ELIXIR</enchantmentItemTypeId>
 		<enchantmentEffectId>RACE</enchantmentEffectId>

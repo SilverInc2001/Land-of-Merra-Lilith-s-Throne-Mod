@@ -21,8 +21,8 @@
 		<imageName zLayer="2" imageRotation="0" imageSize="100">mountain_snapper_vial.svg</imageName>
 		<imageName zLayer="3" imageRotation="0" imageSize="100">background_top.svg</imageName>
 		
-		<colourPrimary>BASE_GRAY</colourPrimary>
-		<colourSecondary>BASE_GRAY</colourSecondary>
+		<colourPrimary>BASE_GREY</colourPrimary>
+		<colourSecondary>BASE_GREY</colourSecondary>
 		<colourTertiary>BASE_TAN</colourTertiary>
 		
 		<potionDescriptor><![CDATA[snapper]]></potionDescriptor>

@@ -35,25 +35,24 @@
 	</extraPatterns>	
 
 	<naturalColoursPrimary>
-		<colour>COVERING_TAN_DARK</colour>
 		<colour>COVERING_TAN</colour>
 		<colour>COVERING_BLACK</colour>
 		<colour>COVERING_BROWN</colour>
-		<colour>COVERING_BROWN_DARK</colour>
-		<colour>COVERING_GRAY_LIGHT</colour>
-		<colour>COVERING_GRAY</colour>
-		<colour>COVERING_GRAY_DARK</colour>
+                <colour>COVERING_BROWN_LIGHT</colour>
+		<colour>COVERING_DARK_BROWN</colour>
+		<colour>COVERING_GREY</colour>
+		<colour>COVERING_DARK_GREY</colour>
 	</naturalColoursPrimary> 
 	
 	<extraColoursPrimary values="allCoveringColours"/>
 	
 	<naturalColoursSecondary>
 		<colour>COVERING_BLACK</colour>
+                <colour>COVERING_BROWN_LIGHT</colour>
 		<colour>COVERING_BROWN</colour>
-		<colour>COVERING_BROWN_DARK</colour>
-		<colour>COVERING_GRAY_LIGHT</colour>
-		<colour>COVERING_GRAY</colour>
-		<colour>COVERING_GRAY_DARK</colour>
+		<colour>COVERING_DARK_BROWN</colour>
+		<colour>COVERING_GREY</colour>
+		<colour>COVERING_DARK_GREY</colour>
 	</naturalColoursSecondary>
 	
 	<extraColoursSecondary values="allCoveringColours"/>
